@@ -2,7 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Valheim Planalyzer | by dsthedev</title>
+    <title>
+      Valheim Planalyzer by dsthedev | Blueprint Resource & Piece Analysis
+    </title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/foundation-sites@6.9.0/dist/css/foundation.min.css"
@@ -111,6 +113,12 @@
   <body class="grid-container">
     <h2>Valheim Planalyzer</h2>
 
+    <p class="lead">
+      Easily analyze your Valheim PlanBuild blueprints to see exactly which
+      pieces they contain and the total resources needed to construct them. Plan
+      your builds with confidence, knowing exactly what materials you'll need
+      for every blueprint.
+    </p>
     <!-- Controls -->
     <label for="blueprintUpload" class="button">Upload Blueprint</label>
     <input
@@ -150,6 +158,15 @@
         Download Resource Count (Markdown)
       </button>
     </div>
+
+    <!-- Instructions -->
+    <p class="muted">
+      To use the Planalyzer, upload your PlanBuild blueprint file using the
+      "Upload Blueprint" button. Once uploaded, you can inspect the blueprint
+      contents, then click "Process Blueprint" to calculate all piece counts and
+      resource totals. Use the "Download Resource Count (Markdown)" button to
+      save a structured summary of your blueprint for reference or sharing.
+    </p>
 
     <!-- Modal overlay that contains the tabbed data/log panels -->
     <div id="logsModal" class="modal-overlay" role="dialog" aria-modal="true">
@@ -337,7 +354,7 @@
       function extractMetadata(text) {
         const lines = text.split(/\r?\n/);
         const meta = {};
-        const allowedKeys = new Set(["Name", "Creator", "Description", "Category"]);
+        const allowedKeys = new Set(["Creator", "Description", "Category"]);
 
         for (const line of lines) {
           if (!line) continue;
