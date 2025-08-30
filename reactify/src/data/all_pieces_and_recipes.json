@@ -1,0 +1,3514 @@
+{
+  "stonemarble_2x2x2": {
+    "StoneChisel": "1",
+    "Stone": "4"
+  },
+  "piece_cauldron": {
+    "Tin": "10"
+  },
+  "wooden_fence_2": {
+    "Wood": "3"
+  },
+  "piece_grausten_roof_45": {
+    "Grausten": "5"
+  },
+  "stone_beam_long": {
+    "Stone": "2"
+  },
+  "rae_brickstone_wall_2x1": {
+    "Stone": "4"
+  },
+  "piece_brazierceiling01": {
+    "Bronze": "5",
+    "Coal": "2",
+    "Chain": "1"
+  },
+  "rae_WoodBeamBig_2m": {
+    "Wood": "4"
+  },
+  "sign": {
+    "Wood": "2",
+    "Coal": "1"
+  },
+  "stonemarble_stair_corner_left": {
+    "StoneChisel": "4",
+    "Stone": "6"
+  },
+  "rae_darkwood_gate_iron": {
+    "FineWood": "5",
+    "Iron": "35",
+    "Tar": "10"
+  },
+  "rae_elevator": {
+    "SurtlingCore": "3",
+    "Iron": "6",
+    "IronNails": "20",
+    "Wood": "10"
+  },
+  "Piece_grausten_wall_2x2": {
+    "Grausten": "6"
+  },
+  "piece_turret": {
+    "BlackMetal": "10",
+    "YggdrasilWood": "10",
+    "MechanicalSpring": "3"
+  },
+  "piece_woodbeam_25_thin": {
+    "FineWood": "1"
+  },
+  "rae_brickstone_wall_singleslab": {
+    "Stone": "1"
+  },
+  "blastfurnace": {
+    "Stone": "20",
+    "SurtlingCore": "5",
+    "Iron": "10",
+    "FineWood": "20"
+  },
+  "rae_woodwall_2": {
+    "RoundLog": "2",
+    "Wood": "1"
+  },
+  "blackmarble_pile": {
+    "BlackMarble": "50"
+  },
+  "darkwood_wolf": {
+    "FineWood": "10",
+    "Tar": "1"
+  },
+  "IG_Wood_Crates": {
+    "BronzeNails": "15",
+    "FineWood": "6"
+  },
+  "piece_groundtorch_blue": {
+    "Iron": "2",
+    "GreydwarfEye": "2"
+  },
+  "piece_grausten_roof_45_arch_corner": {
+    "Grausten": "5"
+  },
+  "rae_irondeco_fence_2": {
+    "Iron": "3",
+    "Tar": "1"
+  },
+  "ashwood_decowall_2x2": {
+    "Blackwood": "2"
+  },
+  "darkwood_pole4": {
+    "Wood": "4",
+    "Tar": "1"
+  },
+  "darkwood_raven": {
+    "FineWood": "10",
+    "Tar": "1"
+  },
+  "stone_pile": {
+    "Stone": "50"
+  },
+  "piece_pot3": {
+    "Pot_Shard_Green": "3",
+    "CharcoalResin": "1"
+  },
+  "stone_arch_1": {
+    "Stone": "40"
+  },
+  "rae_woodwall_half": {
+    "Wood": "1"
+  },
+  "dvergrprops_wood_floor_custom_big": {
+    "Wood": "8",
+    "BronzeNails": "1"
+  },
+  "piece_woodgate_crystal": {
+    "FineWood": "10",
+    "Crystal": "3"
+  },
+  "piece_grausten_roof_45_arch": {
+    "Grausten": "5"
+  },
+  "wooden_gate_1": {
+    "Wood": "20"
+  },
+  "rug_asksvin": {
+    "AskHide": "4"
+  },
+  "piece_cloth_hanging_door_blue2": {
+    "JuteBlue": "4",
+    "FineWood": "1"
+  },
+  "cauldron_ext1_spice": {
+    "Dandelion": "3",
+    "Carrot": "2",
+    "Mushroom": "5",
+    "Thistle": "3",
+    "Turnip": "3"
+  },
+  "rae_StonePillar_8m": {
+    "Stone": "20"
+  },
+  "Piece_grausten_wall_arch_inverted": {
+    "Grausten": "2"
+  },
+  "bonfire": {
+    "SurtlingCore": "1",
+    "ElderBark": "5",
+    "FineWood": "5",
+    "RoundLog": "5"
+  },
+  "copper_roof_icorner": {
+    "Wood": "2",
+    "Copper": "1"
+  },
+  "piece_xmascrown": {
+    "PineCone": "4",
+    "JuteRed": "1",
+    "FineWood": "1"
+  },
+  "ashwood_pole_2m": {
+    "Blackwood": "4"
+  },
+  "rae_WoodPoleBig_4m": {
+    "Wood": "8"
+  },
+  "piece_banner03": {
+    "LeatherScraps": "6",
+    "FineWood": "2",
+    "Raspberry": "4"
+  },
+  "piece_stakewall_blackwood": {
+    "Blackwood": "6"
+  },
+  "piece_dvergr_stake_wall_big": {
+    "YggdrasilWood": "16",
+    "Iron": "16"
+  },
+  "ashwood_floor_2x2": {
+    "Blackwood": "4"
+  },
+  "fire_pit": {
+    "Stone": "5",
+    "Wood": "2"
+  },
+  "iron_gate_big": {
+    "Iron": "35"
+  },
+  "rae_wood_ramp_26": {
+    "Wood": "3"
+  },
+  "stone_pole_short": {
+    "Stone": "1"
+  },
+  "stonemarble_arch": {
+    "StoneChisel": "1",
+    "Stone": "2"
+  },
+  "wood_pole_log": {
+    "RoundLog": "1"
+  },
+  "rae_BigLogVertical_8m": {
+    "RoundLog": "8"
+  },
+  "piece_dvergr_stake_wall": {
+    "YggdrasilWood": "8",
+    "Iron": "8"
+  },
+  "IG_Hardwood_Floor": {
+    "Wood": "2"
+  },
+  "stonemarble_out_2": {
+    "StoneChisel": "1",
+    "Stone": "4"
+  },
+  "piece_blackwood_bench01": {
+    "Blackwood": "6"
+  },
+  "piece_workbench_ext4": {
+    "Iron": "4",
+    "FineWood": "10",
+    "Obsidian": "4"
+  },
+  "surtling_lantern_1": {
+    "Wood": "1",
+    "SurtlingCore": "1",
+    "Iron": "3"
+  },
+  "rae_darkwooddeco_fence": {
+    "FineWood": "4",
+    "Tar": "1"
+  },
+  "piece_grausten_roof_45_corner": {
+    "Grausten": "5"
+  },
+  "rae_StonePillar_4m": {
+    "Stone": "10"
+  },
+  "forge_ext3": {
+    "Wood": "25",
+    "SharpeningStone": "1"
+  },
+  "iron_floor_1x1_v2": {
+    "Iron": "1"
+  },
+  "ashwood_quarterwall_1x1": {
+    "Blackwood": "1"
+  },
+  "ashwood_wall_beam_26": {
+    "Blackwood": "2"
+  },
+  "stone_beam_short": {
+    "Stone": "1"
+  },
+  "IG_Big_Hardwood_Floor": {
+    "Wood": "6"
+  },
+  "ashwood_pole_1m": {
+    "Blackwood": "2"
+  },
+  "thin_iron_pole_1": {
+    "Iron": "1"
+  },
+  "wood_door": {
+    "Wood": "4"
+  },
+  "rae_brickstone_wall_4x2": {
+    "Stone": "12"
+  },
+  "iron_grate": {
+    "Iron": "4"
+  },
+  "piece_bathtub": {
+    "Wood": "20",
+    "Tar": "6",
+    "Iron": "10",
+    "Stone": "8"
+  },
+  "piece_magetable_ext2": {
+    "BlackMarble": "10",
+    "TrophySkeleton": "3",
+    "Eitr": "10",
+    "Resin": "15"
+  },
+  "stonemarble_tile_wall_2x4": {
+    "StoneChisel": "1",
+    "Stone": "8"
+  },
+  "piece_banner02": {
+    "LeatherScraps": "6",
+    "FineWood": "2",
+    "Blueberries": "4"
+  },
+  "grausten_pile": {
+    "Grausten": "50"
+  },
+  "wood_pole_log_4": {
+    "RoundLog": "2"
+  },
+  "piece_chair": {
+    "FineWood": "4"
+  },
+  "ashwood_wall_roof_45_upsidedown": {
+    "Blackwood": "2"
+  },
+  "blackforge_ext3_metalcutter": {
+    "BlackMarble": "5",
+    "FlametalNew": "5",
+    "Blackwood": "5",
+    "CharredBone": "4"
+  },
+  "iron_dragon": {
+    "Iron": "35"
+  },
+  "piece_blackmarble_table": {
+    "BlackMarble": "6",
+    "Copper": "3"
+  },
+  "stone_floor_2x2": {
+    "Stone": "6"
+  },
+  "jute_carpet_blue": {
+    "JuteBlue": "4"
+  },
+  "piece_chest_private": {
+    "FineWood": "10",
+    "Iron": "8"
+  },
+  "cauldron_ext4_pots": {
+    "Iron": "5",
+    "Copper": "5",
+    "BlackMetal": "5",
+    "FineWood": "10"
+  },
+  "piece_banner01": {
+    "LeatherScraps": "6",
+    "FineWood": "2",
+    "Coal": "4"
+  },
+  "VikingShip_Ashlands": {
+    "IronNails": "100",
+    "CeramicPlate": "30",
+    "FineWood": "50",
+    "YggdrasilWood": "25"
+  },
+  "Placeable_HardRock": {
+    "StoneRock": "1",
+    "Coal": "1"
+  },
+  "piece_maypole": {
+    "Wood": "10",
+    "Dandelion": "4",
+    "Thistle": "4"
+  },
+  "piece_banner06": {
+    "LeatherScraps": "6",
+    "FineWood": "2",
+    "Blueberries": "2",
+    "Raspberry": "2",
+    "Cloudberry": "1"
+  },
+  "piece_woodgate_iron": {
+    "FineWood": "10",
+    "Iron": "5"
+  },
+  "rae_chair_2": {
+    "FineWood": "2",
+    "IronNails": "1"
+  },
+  "stone_pillar": {
+    "Stone": "5"
+  },
+  "piece_gift1": {
+    "FineWood": "2",
+    "BoneFragments": "1"
+  },
+  "piece_workbench": {
+    "Wood": "10"
+  },
+  "piece_ironbeam_25_thin": {
+    "Iron": "1"
+  },
+  "blackmarble_floor": {
+    "BlackMarble": "4"
+  },
+  "blackforge": {
+    "BlackMarble": "10",
+    "YggdrasilWood": "10",
+    "BlackCore": "5"
+  },
+  "piece_cloth_hanging_door": {
+    "JuteRed": "4",
+    "FineWood": "1"
+  },
+  "copper_roof_ocorner_45": {
+    "Wood": "2",
+    "Copper": "1"
+  },
+  "rae_WoodPoleBig_2m": {
+    "Wood": "4"
+  },
+  "woodiron_beam": {
+    "Wood": "2",
+    "Iron": "1"
+  },
+  "wood_beam_45": {
+    "Wood": "2"
+  },
+  "stonemarble_head_big01": {
+    "StoneChisel": "10",
+    "Stone": "10"
+  },
+  "stonemarble_slope_2x2": {
+    "StoneChisel": "1",
+    "Stone": "8"
+  },
+  "piece_sapcollector": {
+    "YggdrasilWood": "10",
+    "BlackMetal": "5",
+    "DvergrNeedle": "1"
+  },
+  "piece_world_standing_blueprint_rune": {
+    "Stone": "5"
+  },
+  "Raft": {
+    "Wood": "20",
+    "LeatherScraps": "6",
+    "Resin": "6"
+  },
+  "rug_fur": {
+    "LoxPelt": "4"
+  },
+  "rae_Bigger_Stone_Floor_4x4": {
+    "Stone": "16"
+  },
+  "piece_banner04": {
+    "LeatherScraps": "6",
+    "FineWood": "2",
+    "Bloodbag": "1"
+  },
+  "piece_dvergr_spiralstair_right": {
+    "YggdrasilWood": "5",
+    "Copper": "2"
+  },
+  "IG_Big_Chevron_Floor": {
+    "Wood": "6"
+  },
+  "darkwood_beam4x4": {
+    "Wood": "4",
+    "Tar": "1"
+  },
+  "piece_crystalbeam_25_thin": {
+    "Crystal": "1"
+  },
+  "stonemarble_creep_slope_inverted_1x1x2": {
+    "StoneChisel": "1",
+    "Stone": "3"
+  },
+  "bone_stack": {
+    "BoneFragments": "50"
+  },
+  "copper_roof_ocorner": {
+    "Wood": "2",
+    "Copper": "1"
+  },
+  "rae_stone_wall_roof_x": {
+    "Stone": "3"
+  },
+  "piece_woodbeam_45_thin": {
+    "FineWood": "1"
+  },
+  "ashwood_decowall_tree": {
+    "Blackwood": "2"
+  },
+  "rae_darkwood_iron_raven": {
+    "Iron": "25"
+  },
+  "rae_crystal_beam_short": {
+    "Crystal": "1"
+  },
+  "Piece_grausten_pillarbase_medium": {
+    "Grausten": "3"
+  },
+  "piece_logbench01": {
+    "RoundLog": "2"
+  },
+  "piece_brazierfloor01": {
+    "Bronze": "5",
+    "Coal": "2",
+    "WolfClaw": "3"
+  },
+  "piece_oven": {
+    "Iron": "15",
+    "Stone": "20",
+    "SurtlingCore": "4"
+  },
+  "rae_chair_1": {
+    "FineWood": "2",
+    "IronNails": "1"
+  },
+  "piece_asksvinskeleton": {
+    "BoneFragments": "50",
+    "AsksvinCarrionNeck": "1",
+    "AsksvinCarrionPelvic": "1",
+    "AsksvinCarrionRibcage": "1",
+    "AsksvinCarrionSkull": "1"
+  },
+  "stonemarble_post": {
+    "Stone": "15",
+    "Iron": "4",
+    "SurtlingCore": "1"
+  },
+  "piece_dvergr_lantern": {
+    "Copper": "2",
+    "Lantern": "1",
+    "Chain": "1"
+  },
+  "thin_wood_pole_1": {
+    "FineWood": "1"
+  },
+  "piece_table": {
+    "FineWood": "6"
+  },
+  "wooden_fence_1_gate": {
+    "Wood": "3"
+  },
+  "hearth": {
+    "Stone": "15"
+  },
+  "copper_roof_top": {
+    "Wood": "2",
+    "Copper": "1"
+  },
+  "stonewall_hardrock_stairs_corner": {
+    "Stone": "6"
+  },
+  "Piece_flametal_beam": {
+    "FlametalNew": "2"
+  },
+  "woodiron_beam_26": {
+    "Wood": "2",
+    "Iron": "1"
+  },
+  "wood_wall_roof_45_upsidedown": {
+    "Wood": "2"
+  },
+  "ArmorStand": {
+    "FineWood": "8",
+    "IronNails": "4",
+    "LeatherScraps": "2"
+  },
+  "blackwood_stack": {
+    "Blackwood": "50"
+  },
+  "rae_iron_storage_small": {
+    "Wood": "10",
+    "FineWood": "5",
+    "Iron": "2"
+  },
+  "rae_big_wood_roof_ocorner_46": {
+    "Wood": "5"
+  },
+  "piece_barber": {
+    "FineWood": "10",
+    "BarberKit": "1",
+    "BronzeNails": "5",
+    "TrollHide": "5"
+  },
+  "wood_beam_1": {
+    "Wood": "1"
+  },
+  "stonemarble_1x1x1": {
+    "StoneChisel": "1",
+    "Stone": "1"
+  },
+  "rae_BigLogVertical_4m": {
+    "RoundLog": "4"
+  },
+  "woodiron_beam_45": {
+    "Wood": "2",
+    "Iron": "1"
+  },
+  "stonemarble_head_big02": {
+    "StoneChisel": "10",
+    "Stone": "10"
+  },
+  "rae_stone_wall_roof46_alt": {
+    "Stone": "3"
+  },
+  "piece_grausten_roof_45_corner2": {
+    "Grausten": "5"
+  },
+  "wood_roof_ocorner": {
+    "Wood": "2"
+  },
+  "IG_Skull_2": {
+    "Wood": "1"
+  },
+  "cauldron_ext6_rollingpins": {
+    "Blackwood": "8",
+    "FineWood": "6",
+    "FlametalNew": "4"
+  },
+  "rae_Big_Stone_Floor_4x4": {
+    "Stone": "16"
+  },
+  "blackmarble_out_1": {
+    "BlackMarble": "5"
+  },
+  "surtling_lantern_4": {
+    "Wood": "5",
+    "SurtlingCore": "1",
+    "Iron": "3"
+  },
+  "iron_wall_1x1": {
+    "Iron": "1"
+  },
+  "stone_floor_1_new": {
+    "Stone": "6"
+  },
+  "wood_wall_log_4x0.5": {
+    "RoundLog": "2"
+  },
+  "rug_deer": {
+    "DeerHide": "4"
+  },
+  "stonemarble_column_3": {
+    "StoneChisel": "2",
+    "Stone": "8"
+  },
+  "dvergrprops_wood_stair_custom": {
+    "Wood": "4",
+    "BronzeNails": "1"
+  },
+  "portal_stone": {
+    "GreydwarfEye": "10",
+    "Grausten": "30",
+    "MoltenCore": "2"
+  },
+  "big_pillar": {
+    "Stone": "24"
+  },
+  "wood_beam": {
+    "Wood": "2"
+  },
+  "piece_workbench_ext2": {
+    "Wood": "10",
+    "Flint": "15",
+    "LeatherScraps": "20",
+    "DeerHide": "5"
+  },
+  "piece_trap_troll": {
+    "BlackMetal": "5",
+    "BronzeNails": "10",
+    "MechanicalSpring": "1"
+  },
+  "rae_crystal_pole_long": {
+    "Crystal": "2"
+  },
+  "wood_core_stack": {
+    "RoundLog": "50"
+  },
+  "wood_pole2": {
+    "Wood": "2"
+  },
+  "rae_darkwood_arch_1": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "piece_xmastree": {
+    "Wood": "10",
+    "FirCone": "1"
+  },
+  "thin_rae_crystal_pole_2": {
+    "Crystal": "2"
+  },
+  "darkwood_roof_ocorner": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "rae_woodwall_3_half": {
+    "Wood": "1"
+  },
+  "stonemarble_2x1x2": {
+    "StoneChisel": "1",
+    "Stone": "4"
+  },
+  "blackmarble_2x2x2": {
+    "BlackMarble": "8"
+  },
+  "piece_bench01": {
+    "FineWood": "6"
+  },
+  "Karve": {
+    "FineWood": "30",
+    "DeerHide": "10",
+    "Resin": "20",
+    "BronzeNails": "80"
+  },
+  "woodwall": {
+    "Wood": "2"
+  },
+  "stone_wall_2x1": {
+    "Stone": "4"
+  },
+  "piece_groundtorch_green": {
+    "Iron": "2",
+    "Guck": "2"
+  },
+  "stonewall_hardrock_4x2": {
+    "Stone": "12"
+  },
+  "rae_stone_wall_roof_alt": {
+    "Stone": "3"
+  },
+  "smelter": {
+    "Stone": "20",
+    "SurtlingCore": "5"
+  },
+  "darkwood_roof_ocorner_45": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "ashwood_wall_cross_45": {
+    "Blackwood": "2"
+  },
+  "darkwood_pole": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "piece_workbench_ext3": {
+    "FineWood": "10",
+    "Bronze": "3"
+  },
+  "rae_big_wood_roof_icorner_46": {
+    "Wood": "5"
+  },
+  "guard_stone": {
+    "FineWood": "5",
+    "GreydwarfEye": "5",
+    "SurtlingCore": "1"
+  },
+  "blackforge_ext2_vise": {
+    "Iron": "5",
+    "Copper": "8",
+    "MechanicalSpring": "2"
+  },
+  "rae_big_wood_roof": {
+    "Wood": "5"
+  },
+  "VikingShip": {
+    "IronNails": "100",
+    "DeerHide": "10",
+    "FineWood": "40",
+    "ElderBark": "40"
+  },
+  "copper_roof": {
+    "Wood": "2",
+    "Copper": "1"
+  },
+  "Piece_grausten_wall_1x2": {
+    "Grausten": "4"
+  },
+  "copper_roof_top_45": {
+    "Wood": "2",
+    "Copper": "1"
+  },
+  "rae_stone_wall_roof_xs": {
+    "Stone": "3"
+  },
+  "forge_ext2": {
+    "Wood": "5",
+    "Bronze": "2"
+  },
+  "darkwood_gate": {
+    "Wood": "16",
+    "Iron": "4",
+    "Tar": "2"
+  },
+  "rae_bronze_storage_small": {
+    "Wood": "10",
+    "FineWood": "5",
+    "Bronze": "2"
+  },
+  "piece_enchanter": {
+    "Stone": "10",
+    "SurtlingCore": "3",
+    "Copper": "3",
+    "SwordCheat": "1"
+  },
+  "cauldron_ext5_mortarandpestle": {
+    "BlackMarble": "8",
+    "FineWood": "6",
+    "RoundLog": "4"
+  },
+  "treasure_pile": {
+    "Coins": "999"
+  },
+  "wooden_window_big": {
+    "Wood": "6"
+  },
+  "darkwood_roof_top": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "stone_window_big": {
+    "Wood": "4",
+    "Stone": "10"
+  },
+  "stonemarble_base_1": {
+    "StoneChisel": "1",
+    "Stone": "2"
+  },
+  "rae_stone_wall_roof45": {
+    "Stone": "3"
+  },
+  "stonemarble_slope_inverted_1x2": {
+    "StoneChisel": "1",
+    "Stone": "4"
+  },
+  "piece_cookingstation": {
+    "Wood": "2"
+  },
+  "piece_jackoturnip": {
+    "Turnip": "4",
+    "Resin": "2"
+  },
+  "rae_big_wood_roof_top": {
+    "Wood": "5"
+  },
+  "stonemarble_tip": {
+    "StoneChisel": "1",
+    "Stone": "3"
+  },
+  "stonewall_hardrock_1x1": {
+    "Stone": "2"
+  },
+  "bed": {
+    "Wood": "8"
+  },
+  "piece_stonecutter": {
+    "Wood": "10",
+    "Iron": "2",
+    "Stone": "4"
+  },
+  "copper_roof_icorner_45": {
+    "Wood": "2",
+    "Copper": "1"
+  },
+  "wood_wall_quarter": {
+    "Wood": "1"
+  },
+  "darkwood_roof_icorner": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "piece_enchantingtable": {
+    "FineWood": "10",
+    "SurtlingCore": "1"
+  },
+  "piece_crystalbeam_45_thin": {
+    "Crystal": "1"
+  },
+  "IG_Barrels_Closed_Up": {
+    "BronzeNails": "15",
+    "FineWood": "6"
+  },
+  "Piece_grausten_wall_arch": {
+    "Grausten": "2"
+  },
+  "skull_pile": {
+    "Charredskull": "50"
+  },
+  "wood_stair": {
+    "Wood": "2"
+  },
+  "thin_iron_beam_2": {
+    "Iron": "1"
+  },
+  "blackmarble_arch": {
+    "BlackMarble": "5"
+  },
+  "cauldron_ext3_butchertable": {
+    "ElderBark": "2",
+    "RoundLog": "4",
+    "FineWood": "4",
+    "Silver": "2"
+  },
+  "surtling_lantern_3": {
+    "Wood": "14",
+    "SurtlingCore": "2",
+    "Iron": "7"
+  },
+  "IG_Candle_Tray": {
+    "Resin": "6",
+    "Wood": "1"
+  },
+  "stonemarble_stair_corner": {
+    "StoneChisel": "4",
+    "Stone": "6"
+  },
+  "ashwood_arch_big": {
+    "Blackwood": "2"
+  },
+  "rae_BigLog27": {
+    "RoundLog": "4"
+  },
+  "windmill": {
+    "Stone": "20",
+    "Wood": "30",
+    "IronNails": "30"
+  },
+  "Piece_flametal_pillar": {
+    "FlametalNew": "2"
+  },
+  "piece_chair02": {
+    "FineWood": "4"
+  },
+  "piece_hexagonal_door": {
+    "YggdrasilWood": "8",
+    "Copper": "8"
+  },
+  "rae_big_wood_roof_top_46": {
+    "Wood": "5"
+  },
+  "Piece_grausten_window_2x2": {
+    "Grausten": "4"
+  },
+  "wood_log_26": {
+    "RoundLog": "2"
+  },
+  "IG_Beer_Keg_Small": {
+    "Resin": "5",
+    "FineWood": "5",
+    "Tin": "1"
+  },
+  "charcoal_kiln": {
+    "Stone": "20",
+    "SurtlingCore": "5"
+  },
+  "stonewall_hardrock_arch": {
+    "Stone": "2"
+  },
+  "wood_wall_roof_top_45": {
+    "Wood": "2"
+  },
+  "stonemarble_slope_2x1x2": {
+    "StoneChisel": "1",
+    "Stone": "6"
+  },
+  "Candle_resin": {
+    "Resin": "1",
+    "CandleWick": "1"
+  },
+  "blackmarble_1x1": {
+    "BlackMarble": "2"
+  },
+  "wood_window": {
+    "Wood": "4",
+    "BronzeNails": "2"
+  },
+  "piece_shieldgenerator": {
+    "Iron": "5",
+    "Copper": "5",
+    "ShieldCore": "1"
+  },
+  "rae_table_1": {
+    "FineWood": "10",
+    "Tin": "2"
+  },
+  "wood_roof_top": {
+    "Wood": "2"
+  },
+  "wooden_window_small": {
+    "Wood": "3"
+  },
+  "forge_ext4": {
+    "Iron": "20",
+    "Wood": "5"
+  },
+  "thin_wood_pole_2": {
+    "FineWood": "2"
+  },
+  "iron_gate_small": {
+    "Iron": "5"
+  },
+  "IG_BrazierCeiling_1": {
+    "Resin": "24",
+    "Iron": "6",
+    "Coal": "15"
+  },
+  "piece_banner11": {
+    "LeatherScraps": "6",
+    "FineWood": "2",
+    "Coal": "2",
+    "Cloudberry": "4"
+  },
+  "forge_ext5": {
+    "FineWood": "25",
+    "Copper": "10"
+  },
+  "IG_Chevron_Floor": {
+    "Wood": "2"
+  },
+  "wood_beam_26": {
+    "Wood": "2"
+  },
+  "piece_chest_treasure": {
+    "Coins": "99",
+    "Ruby": "5",
+    "SilverNecklace": "2",
+    "FineWood": "8",
+    "Silver": "2"
+  },
+  "rae_elevator_small": {
+    "SurtlingCore": "2",
+    "Iron": "3",
+    "IronNails": "10",
+    "Wood": "6"
+  },
+  "wood_yggdrasil_stack": {
+    "YggdrasilWood": "50"
+  },
+  "refined_sharpstakes": {
+    "RoundLog": "8",
+    "BronzeNails": "5"
+  },
+  "piece_workbench_ext1": {
+    "Wood": "10",
+    "Flint": "10"
+  },
+  "artisan_ext1": {
+    "BlackMarble": "5",
+    "Bronze": "5",
+    "QueenDrop": "1"
+  },
+  "rae_brickstone_wall_1x1": {
+    "Stone": "2"
+  },
+  "piece_dvergr_sharpstakes": {
+    "YggdrasilWood": "5",
+    "Iron": "2"
+  },
+  "piece_gift2": {
+    "FineWood": "3",
+    "Dandelion": "1"
+  },
+  "ashwood_wall_roof_45": {
+    "Blackwood": "2"
+  },
+  "rae_crystal_floorslab": {
+    "Crystal": "6",
+    "Tar": "3"
+  },
+  "fire_pit_iron": {
+    "Ironpit": "1",
+    "Wood": "1"
+  },
+  "piece_throne02": {
+    "Stone": "20",
+    "DeerHide": "2",
+    "WolfPelt": "2"
+  },
+  "fermenter": {
+    "FineWood": "30",
+    "Bronze": "5",
+    "Resin": "10"
+  },
+  "wooden_drawbridge_2": {
+    "Wood": "12",
+    "Iron": "6",
+    "SurtlingCore": "1"
+  },
+  "thin_rae_crystal_beam_1": {
+    "Crystal": "2"
+  },
+  "rae_woodwall_1": {
+    "RoundLog": "2",
+    "Wood": "1"
+  },
+  "stonemarble_creep_4x1x1": {
+    "StoneChisel": "1",
+    "Stone": "6"
+  },
+  "rae_BigLogHorizontal_8m": {
+    "RoundLog": "8"
+  },
+  "Piece_grausten_pillarbase_tapered": {
+    "Grausten": "5"
+  },
+  "rae_StoneArchBig_short": {
+    "Stone": "10"
+  },
+  "Piece_grausten_window_4x2": {
+    "Grausten": "10"
+  },
+  "wood_wall_roof_top": {
+    "Wood": "2"
+  },
+  "stonewall_hardrock_pillar": {
+    "Stone": "6"
+  },
+  "blackforge_ext4_gemcutter": {
+    "FlametalNew": "5",
+    "Blackwood": "8",
+    "MorgenSinew": "2",
+    "GemstoneRed": "1"
+  },
+  "iron_beam_short": {
+    "Iron": "1"
+  },
+  "stone_table_1": {
+    "Stone": "12"
+  },
+  "Piece_grausten_floor_4x4": {
+    "Grausten": "8"
+  },
+  "rae_crystal_beam_long": {
+    "Crystal": "2"
+  },
+  "Cart": {
+    "Wood": "20",
+    "BronzeNails": "10"
+  },
+  "iron_wall_2x2": {
+    "Iron": "2"
+  },
+  "blackmarble_column_1": {
+    "BlackMarble": "2"
+  },
+  "piece_dvergr_lantern_pole": {
+    "Copper": "3",
+    "Lantern": "1",
+    "Chain": "1"
+  },
+  "rae_compost": {
+    "AncientSeed": "6",
+    "FineWood": "12",
+    "Resin": "20"
+  },
+  "iron_pole_long": {
+    "Iron": "2"
+  },
+  "piece_groundtorch": {
+    "Iron": "2",
+    "Resin": "2"
+  },
+  "piece_Lavalantern": {
+    "FlametalNew": "1",
+    "ProustitePowder": "1",
+    "SulfurStone": "1"
+  },
+  "wood_roof_45": {
+    "Wood": "2"
+  },
+  "piece_augmenter": {
+    "Obsidian": "10",
+    "Crystal": "3",
+    "Bronze": "3",
+    "SwordCheat": "1"
+  },
+  "piece_banner07": {
+    "LeatherScraps": "6",
+    "FineWood": "2",
+    "Blueberries": "2",
+    "Cloudberry": "3"
+  },
+  "ashwood_decowall_divider": {
+    "Blackwood": "2"
+  },
+  "piece_pot1": {
+    "Pot_Shard_Green": "4",
+    "CharcoalResin": "1"
+  },
+  "rae_iron_sharpstakes": {
+    "RoundLog": "10",
+    "IronNails": "15"
+  },
+  "blackmarble_column_2": {
+    "BlackMarble": "4"
+  },
+  "rae_iron_storage_big": {
+    "Wood": "15",
+    "FineWood": "15",
+    "Iron": "4"
+  },
+  "rae_BigLog46": {
+    "RoundLog": "4"
+  },
+  "wooden_arch_1": {
+    "RoundLog": "3",
+    "Resin": "4"
+  },
+  "piece_chest": {
+    "FineWood": "10",
+    "Iron": "2"
+  },
+  "stonemarble_out_1": {
+    "StoneChisel": "1",
+    "Stone": "4"
+  },
+  "wood_roof_top_45": {
+    "Wood": "2"
+  },
+  "rug_wolf": {
+    "WolfPelt": "4"
+  },
+  "piece_table_round": {
+    "FineWood": "10",
+    "Tar": "2",
+    "IronNails": "20"
+  },
+  "IG_Beer_Keg_Big": {
+    "Resin": "10",
+    "FineWood": "10",
+    "Tin": "2"
+  },
+  "stone_arch_2_small": {
+    "Stone": "15"
+  },
+  "Piece_grausten_floor_2x2": {
+    "Grausten": "4"
+  },
+  "ashwood_beam_2m": {
+    "Blackwood": "4"
+  },
+  "rae_StoneWallBig": {
+    "Stone": "20"
+  },
+  "piece_dvergr_wood_custom": {
+    "FineWood": "15",
+    "Iron": "10"
+  },
+  "wood_stepladder": {
+    "Wood": "2"
+  },
+  "darkwood_decowall": {
+    "FineWood": "2",
+    "Tar": "1"
+  },
+  "itemstand": {
+    "FineWood": "4",
+    "BronzeNails": "1"
+  },
+  "piece_banner05": {
+    "LeatherScraps": "6",
+    "FineWood": "2",
+    "Guck": "1"
+  },
+  "piece_cartographytable": {
+    "FineWood": "10",
+    "BoneFragments": "10",
+    "Bronze": "2",
+    "LeatherScraps": "5",
+    "Raspberry": "4"
+  },
+  "wood_dragon1": {
+    "FineWood": "10"
+  },
+  "piece_mistletoe": {
+    "FineWood": "1",
+    "JuteRed": "1"
+  },
+  "Piece_grausten_pillarbeam_medium": {
+    "Grausten": "3"
+  },
+  "wooden_drawbridge_1": {
+    "Wood": "12",
+    "Iron": "6",
+    "SurtlingCore": "1"
+  },
+  "piece_magetable_ext3": {
+    "CelestialFeather": "8",
+    "TrophyAsksvin": "1",
+    "Eitr": "10",
+    "Blackwood": "3"
+  },
+  "wood_wall_roof_45": {
+    "Wood": "2"
+  },
+  "piece_magetable_ext": {
+    "BlackMarble": "10",
+    "YggdrasilWood": "5",
+    "Eitr": "10"
+  },
+  "incinerator": {
+    "Iron": "8",
+    "Copper": "4",
+    "Thunderstone": "1"
+  },
+  "darkwood_arch": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "stonemarble_slope_1x2": {
+    "StoneChisel": "1",
+    "Stone": "3"
+  },
+  "stonemarble_tile_wall_1x1": {
+    "StoneChisel": "1",
+    "Stone": "1"
+  },
+  "copper_roof_45": {
+    "Wood": "2",
+    "Copper": "1"
+  },
+  "ashwood_bed": {
+    "Blackwood": "8",
+    "LoxPelt": "2",
+    "AskHide": "2"
+  },
+  "stonemarble_outcorner": {
+    "StoneChisel": "2",
+    "Stone": "4"
+  },
+  "wood_roof_icorner": {
+    "Wood": "2"
+  },
+  "woodiron_pole": {
+    "Wood": "2",
+    "Iron": "1"
+  },
+  "ashwood_beam_1m": {
+    "Blackwood": "2"
+  },
+  "coal_pile": {
+    "Coal": "50"
+  },
+  "rae_WoodBeamBig27": {
+    "Wood": "4"
+  },
+  "ashwood_stair": {
+    "Blackwood": "2"
+  },
+  "wood_roof": {
+    "Wood": "2"
+  },
+  "wood_stack": {
+    "Wood": "50"
+  },
+  "ashwood_wall_arch": {
+    "Blackwood": "2"
+  },
+  "blackmarble_base_1": {
+    "BlackMarble": "5"
+  },
+  "portal_wood": {
+    "GreydwarfEye": "10",
+    "FineWood": "20",
+    "SurtlingCore": "2"
+  },
+  "Piece_grausten_floor_1x1": {
+    "Grausten": "2"
+  },
+  "refined_stakewall_1": {
+    "RoundLog": "5",
+    "BronzeNails": "5"
+  },
+  "piece_cookingstation_iron": {
+    "Iron": "3",
+    "Chain": "3"
+  },
+  "stone_stair": {
+    "Stone": "8"
+  },
+  "surtling_lantern_2": {
+    "Wood": "10",
+    "SurtlingCore": "1",
+    "Iron": "5"
+  },
+  "ig_tall_stairs": {
+    "Wood": "3"
+  },
+  "piece_pot2": {
+    "Pot_Shard_Green": "5",
+    "CharcoalResin": "1"
+  },
+  "piece_ironbeam_45_thin": {
+    "Iron": "1"
+  },
+  "rae_woodwall_4": {
+    "ElderBark": "1"
+  },
+  "stonemarble_2x2x2_enforced": {
+    "StoneChisel": "2",
+    "Stone": "8",
+    "Iron": "2"
+  },
+  "wood_wall_roof": {
+    "Wood": "2"
+  },
+  "darkwood_roof_45": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "rae_woodwall_1_half": {
+    "RoundLog": "1",
+    "Wood": "1"
+  },
+  "piece_bed02": {
+    "FineWood": "40",
+    "DeerHide": "7",
+    "WolfPelt": "4",
+    "Feathers": "10",
+    "IronNails": "15"
+  },
+  "Piece_grausten_pillarbase_small": {
+    "Grausten": "1"
+  },
+  "rae_bird_house": {
+    "FineWood": "6",
+    "BronzeNails": "12",
+    "RoundLog": "2"
+  },
+  "blackmarble_tip": {
+    "BlackMarble": "2"
+  },
+  "rae_WoodBeamBig46": {
+    "Wood": "4"
+  },
+  "rae_WoodBeamBig_4m": {
+    "Wood": "8"
+  },
+  "ashwood_door": {
+    "FlametalNew": "1",
+    "Blackwood": "5"
+  },
+  "forge_ext6": {
+    "Iron": "15",
+    "Wood": "10"
+  },
+  "Piece_grausten_stone_ladder": {
+    "Grausten": "5"
+  },
+  "piece_blackmarble_bench": {
+    "BlackMarble": "6",
+    "Copper": "3"
+  },
+  "piece_cloth_hanging_door_blue": {
+    "JuteBlue": "4",
+    "FineWood": "1"
+  },
+  "darkwood_beam_45": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "piece_world_blueprint_rune_stack": {
+    "Stone": "5"
+  },
+  "wood_roof_ocorner_45": {
+    "Wood": "2"
+  },
+  "Piece_grausten_pillar_arch": {
+    "Grausten": "4"
+  },
+  "wood_roof_icorner_45": {
+    "Wood": "2"
+  },
+  "stone_throne_1": {
+    "Stone": "15",
+    "Iron": "10",
+    "Silver": "10"
+  },
+  "piece_sharpstakes": {
+    "Wood": "6",
+    "RoundLog": "4"
+  },
+  "wood_gate": {
+    "Wood": "12"
+  },
+  "Piece_grausten_wall_4x2": {
+    "Grausten": "12"
+  },
+  "piece_chest_blackmetal": {
+    "Wood": "10",
+    "Tar": "2",
+    "BlackMetal": "6"
+  },
+  "blackmarble_stair": {
+    "BlackMarble": "8"
+  },
+  "piece_wisplure": {
+    "Stone": "10",
+    "YagluthDrop": "1"
+  },
+  "ashwood_halfwall_1x2": {
+    "Blackwood": "1"
+  },
+  "BatteringRam": {
+    "Blackwood": "20",
+    "FlametalNew": "10",
+    "SurtlingCore": "2"
+  },
+  "IG_BigBrazierCeilingVanilla": {
+    "Chain": "3",
+    "Iron": "10",
+    "Coal": "15"
+  },
+  "rae_StoneArchBig": {
+    "Stone": "15"
+  },
+  "Catapult": {
+    "Blackwood": "20",
+    "FlametalNew": "10",
+    "CharredCogwheel": "1"
+  },
+  "wood_fence": {
+    "Wood": "1"
+  },
+  "stonemarble_creep_4x1x2": {
+    "StoneChisel": "2",
+    "Stone": "8"
+  },
+  "blackmarble_outcorner": {
+    "BlackMarble": "6"
+  },
+  "forge_ext1": {
+    "Wood": "5",
+    "DeerHide": "5",
+    "Chain": "4"
+  },
+  "rae_stone_wall_roof": {
+    "Stone": "3"
+  },
+  "piece_groundtorch_wood": {
+    "Wood": "2",
+    "Resin": "2"
+  },
+  "rae_irondeco_fence": {
+    "Iron": "3",
+    "Tar": "1"
+  },
+  "rae_bronze_storage_big": {
+    "Wood": "15",
+    "FineWood": "15",
+    "Bronze": "4"
+  },
+  "food_smelter": {
+    "Coal": "20",
+    "SurtlingCore": "10",
+    "Bronze": "15"
+  },
+  "ashwood_floor_1x1": {
+    "Blackwood": "2"
+  },
+  "IG_Wall_Shield": {
+    "Tin": "1"
+  },
+  "IG_Barrels_Closed_Down": {
+    "BronzeNails": "15",
+    "FineWood": "6"
+  },
+  "thin_rae_crystal_beam_2": {
+    "Crystal": "1"
+  },
+  "stone_pole_long": {
+    "Stone": "2"
+  },
+  "darkwood_roof_top_45": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "piece_grausten_roof_45_arch_corner2": {
+    "Grausten": "5"
+  },
+  "flametal_gate": {
+    "FlametalNew": "16"
+  },
+  "treasure_stack": {
+    "Coins": "99"
+  },
+  "Piece_grausten_pillar_arch_small": {
+    "Grausten": "2"
+  },
+  "thin_wood_beam_1": {
+    "FineWood": "2"
+  },
+  "jute_carpet": {
+    "JuteRed": "4"
+  },
+  "piece_banner09": {
+    "LeatherScraps": "6",
+    "FineWood": "2",
+    "Blueberries": "2",
+    "Raspberry": "3"
+  },
+  "rae_BigLogHorizontal_4m": {
+    "RoundLog": "4"
+  },
+  "rae_bigcrystal_w": {
+    "Crystal": "5",
+    "Tar": "2"
+  },
+  "piece_plan_totem": {
+    "Wood": "1",
+    "GreydwarfEye": "1"
+  },
+  "darkwood_beam": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "thin_wood_beam_2": {
+    "FineWood": "1"
+  },
+  "stone_wall_1x1": {
+    "Stone": "3"
+  },
+  "piece_dvergr_spiralstair": {
+    "YggdrasilWood": "5",
+    "Copper": "2"
+  },
+  "blackmarble_floor_triangle": {
+    "BlackMarble": "3"
+  },
+  "wood_wall_roof_upsidedown": {
+    "Wood": "2"
+  },
+  "stonemarble_floor_triangle": {
+    "StoneChisel": "1",
+    "Stone": "3"
+  },
+  "thin_iron_pole_2": {
+    "Iron": "2"
+  },
+  "IG_BigBrazierCeiling": {
+    "Resin": "30",
+    "Iron": "10",
+    "Coal": "20"
+  },
+  "iron_beam_long": {
+    "Iron": "2"
+  },
+  "rae_big_wood_roof_46": {
+    "Wood": "5"
+  },
+  "piece_chair03": {
+    "FineWood": "4",
+    "Tar": "1",
+    "IronNails": "5",
+    "DeerHide": "1"
+  },
+  "piece_brazierfloor02": {
+    "Bronze": "5",
+    "GreydwarfEye": "5",
+    "WolfClaw": "3"
+  },
+  "crystal_wall_1x1": {
+    "Crystal": "2"
+  },
+  "piece_magetable": {
+    "YggdrasilWood": "20",
+    "BlackMetal": "10",
+    "BlackCore": "5",
+    "Eitr": "5"
+  },
+  "piece_MeadCauldron": {
+    "Tin": "4",
+    "Copper": "6",
+    "LeatherScraps": "2"
+  },
+  "rae_StoneWallBig8x4": {
+    "Stone": "30"
+  },
+  "Piece_grausten_pillarbase_tapered_inverted": {
+    "Grausten": "5"
+  },
+  "piece_preptable": {
+    "Iron": "5",
+    "FineWood": "20",
+    "LeatherScraps": "15"
+  },
+  "piece_bone_throne": {
+    "CharredBone": "15",
+    "FlametalNew": "4",
+    "Grausten": "20",
+    "Charredskull": "3"
+  },
+  "piece_chest_barrel": {
+    "Wood": "10",
+    "BarrelRings": "1"
+  },
+  "piece_repair": {},
+  "stone_arch": {
+    "Stone": "4"
+  },
+  "stake_wall": {
+    "Wood": "4"
+  },
+  "Piece_grausten_pillarbeam_small": {
+    "Grausten": "1"
+  },
+  "ashwood_wall_cross_26": {
+    "Blackwood": "2"
+  },
+  "thin_rae_crystal_pole_1": {
+    "Crystal": "1"
+  },
+  "eitrrefinery": {
+    "BlackMarble": "20",
+    "BlackMetal": "5",
+    "YggdrasilWood": "10",
+    "BlackCore": "5",
+    "Sap": "3"
+  },
+  "dvergrprops_wood_floor_custom": {
+    "Wood": "4",
+    "BronzeNails": "1"
+  },
+  "piece_chest_wood": {
+    "Wood": "10"
+  },
+  "itemstandh": {
+    "FineWood": "4",
+    "BronzeNails": "1"
+  },
+  "refined_stakewall_2": {
+    "RoundLog": "7",
+    "Wood": "5",
+    "IronNails": "10"
+  },
+  "rae_fish_trap": {
+    "AncientSeed": "4",
+    "FineWood": "10",
+    "Resin": "15"
+  },
+  "ashwood_deco_floor": {
+    "Blackwood": "4"
+  },
+  "rae_big_wood_roof_icorner": {
+    "Wood": "5"
+  },
+  "ashwood_wall_2x2": {
+    "Blackwood": "2"
+  },
+  "stonemarble_column_2": {
+    "StoneChisel": "1",
+    "Stone": "4"
+  },
+  "piece_groundtorch_mist": {
+    "YggdrasilWood": "1",
+    "Wisp": "1"
+  },
+  "stonemarble_column_1": {
+    "StoneChisel": "1",
+    "Stone": "2"
+  },
+  "ashwood_wall_roof_26": {
+    "Blackwood": "2"
+  },
+  "blackmarble_basecorner": {
+    "BlackMarble": "6"
+  },
+  "piece_blackmarble_throne": {
+    "BlackMarble": "20",
+    "ScaleHide": "4",
+    "DeerHide": "2",
+    "Copper": "5"
+  },
+  "stonemarble_base_2": {
+    "StoneChisel": "1",
+    "Stone": "2"
+  },
+  "rae_brickstone_wall_single": {
+    "Stone": "1"
+  },
+  "stonemarble_basecorner": {
+    "StoneChisel": "1",
+    "Stone": "2"
+  },
+  "blackmarble_2x1x1": {
+    "BlackMarble": "4"
+  },
+  "darkwood_beam_26": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "blackforge_ext1": {
+    "Iron": "5",
+    "Copper": "5",
+    "BlackMarble": "4"
+  },
+  "wood_pole": {
+    "Wood": "1"
+  },
+  "rae_woodwall_4_half": {
+    "ElderBark": "1"
+  },
+  "piece_walltorch": {
+    "Wood": "2",
+    "Copper": "2",
+    "Resin": "2"
+  },
+  "wood_floor": {
+    "Wood": "2"
+  },
+  "rug_straw": {
+    "Barley": "1",
+    "Flax": "1"
+  },
+  "iron_pole_short": {
+    "Iron": "1"
+  },
+  "piece_banner10": {
+    "LeatherScraps": "6",
+    "FineWood": "2",
+    "Carrot": "2",
+    "Cloudberry": "3"
+  },
+  "stonewall_hardrock_2x1": {
+    "Stone": "4"
+  },
+  "wood_fine_stack": {
+    "FineWood": "50"
+  },
+  "darkwood_roof": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "piece_artisanstation": {
+    "Wood": "10",
+    "DragonTear": "2"
+  },
+  "rae_hidden_door": {
+    "FineWood": "2"
+  },
+  "piece_beehive": {
+    "Wood": "10",
+    "QueenBee": "1"
+  },
+  "rae_woodwall_2_half": {
+    "RoundLog": "1",
+    "Wood": "1"
+  },
+  "IG_Skull_1": {
+    "Wood": "1"
+  },
+  "stone_window_small": {
+    "Wood": "2",
+    "Stone": "5"
+  },
+  "rug_hare": {
+    "ScaleHide": "4"
+  },
+  "rae_wood_ramp_45": {
+    "Wood": "3"
+  },
+  "wooden_fence_2_gate": {
+    "Wood": "4"
+  },
+  "rae_woodwall_3": {
+    "Wood": "2"
+  },
+  "piece_gift3": {
+    "FineWood": "4",
+    "Raspberry": "1"
+  },
+  "ashwood_wall_beam_45": {
+    "Blackwood": "2"
+  },
+  "iron_floor_2x2": {
+    "Iron": "2"
+  },
+  "stonemarble_2x1x1": {
+    "StoneChisel": "1",
+    "Stone": "2"
+  },
+  "piece_spinningwheel": {
+    "FineWood": "20",
+    "IronNails": "10",
+    "LeatherScraps": "5"
+  },
+  "piece_woodgate_darkwood": {
+    "FineWood": "10",
+    "Tar": "3"
+  },
+  "rae_crystal_pole_short": {
+    "Crystal": "1"
+  },
+  "rae_chair_3": {
+    "FineWood": "2"
+  },
+  "stone_wall_4x2": {
+    "Stone": "6"
+  },
+  "IG_Wall_Swords": {
+    "Tin": "1"
+  },
+  "rae_darkwood_iron_wolf": {
+    "Iron": "25"
+  },
+  "wood_wall_half": {
+    "Wood": "1"
+  },
+  "piece_banner08": {
+    "LeatherScraps": "6",
+    "FineWood": "2",
+    "Dandelion": "4",
+    "Coal": "2"
+  },
+  "piece_throne01": {
+    "FineWood": "20",
+    "IronNails": "10"
+  },
+  "thin_iron_beam_1": {
+    "Iron": "2"
+  },
+  "wood_floor_1x1": {
+    "Wood": "1"
+  },
+  "forge": {
+    "Stone": "4",
+    "Coal": "4",
+    "Wood": "10",
+    "Copper": "6"
+  },
+  "rae_darkwood_gate_crystal": {
+    "FineWood": "5",
+    "Crystal": "15",
+    "Tar": "10"
+  },
+  "wooden_fence_1": {
+    "Wood": "2"
+  },
+  "stonemarble_creep_slope_inverted_2x2x1": {
+    "StoneChisel": "1",
+    "Stone": "4"
+  },
+  "piece_dvergr_metal_wall_2x2": {
+    "Copper": "2"
+  },
+  "stonemarble_column_4": {
+    "StoneChisel": "2",
+    "Stone": "8"
+  },
+  "rae_big_wood_roof_ocorner": {
+    "Wood": "5"
+  },
+  "piece_xmasgarland": {
+    "FineWood": "2",
+    "PineCone": "1"
+  },
+  "wood_wall_log": {
+    "RoundLog": "1"
+  },
+  "stonemarble_tile_wall_2x2": {
+    "StoneChisel": "1",
+    "Stone": "2"
+  },
+  "piece_grausten_stonestair": {
+    "Grausten": "8"
+  },
+  "wood_log_45": {
+    "RoundLog": "2"
+  },
+  "stonewall_hardrock_stairs": {
+    "Stone": "6"
+  },
+  "darkwood_roof_icorner_45": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "piece_table_oak": {
+    "FineWood": "20",
+    "Tar": "2",
+    "IronNails": "20"
+  },
+  "ashwood_wall_roof_26_upsidedown": {
+    "Blackwood": "2"
+  },
+  "Recipe_AxeBerzerkr_Nature": {
+    "AxeBerzerkr": "1",
+    "FlametalNew": "5",
+    "GemstoneGreen": "1"
+  },
+  "Recipe_FireworksBlue": {
+    "FireworksRocket_White": "1",
+    "Blueberries": "1"
+  },
+  "Recipe_ArmorMageLegs_Ashlands": {
+    "LinenThread": "20",
+    "Eitr": "20",
+    "AskHide": "10"
+  },
+  "Recipe_YggdrasilPorridge": {
+    "Sap": "4",
+    "Barley": "3",
+    "RoyalJelly": "2"
+  },
+  "Recipe_ArmorDress4": {
+    "DeerHide": "6"
+  },
+  "Recipe_CrossbowArbalest": {
+    "Wood": "10",
+    "Iron": "8",
+    "Root": "4"
+  },
+  "Recipe_StaffClusterbomb": {
+    "CharredBone": "15",
+    "Blackwood": "5",
+    "ProustitePowder": "8"
+  },
+  "Recipe_PiquantPie": {
+    "Vineberry": "2",
+    "AsksvinMeat": "2",
+    "BarleyFlour": "4"
+  },
+  "Recipe_HelmetTrollLeather": {
+    "TrollHide": "5",
+    "BoneFragments": "3"
+  },
+  "Recipe_CapeFeather": {
+    "Feathers": "10",
+    "ScaleHide": "5",
+    "Eitr": "20"
+  },
+  "Recipe_StaffShield": {
+    "YggdrasilWood": "20",
+    "GiantBloodSack": "4",
+    "Eitr": "16"
+  },
+  "Recipe_CarrotSoup": {
+    "Mushroom": "1",
+    "Carrot": "3"
+  },
+  "Recipe_CrossbowRipper_Lightning": {
+    "CrossbowRipper": "1",
+    "FlametalNew": "8",
+    "GemstoneBlue": "1"
+  },
+  "Recipe_ArmorMageLegs": {
+    "LinenThread": "20",
+    "Eitr": "20",
+    "ScaleHide": "10"
+  },
+  "Recipe_TorchMist": {
+    "Crystal": "1",
+    "Resin": "1"
+  },
+  "Recipe_ArmorDress10": {
+    "DeerHide": "6"
+  },
+  "Recipe_ArrowObsidian": {
+    "Wood": "8",
+    "Obsidian": "4",
+    "Feathers": "2"
+  },
+  "Recipe_FishingBaitMistlands": {
+    "FishingBait": "20",
+    "TrophyLox": "1"
+  },
+  "Recipe_HelmetLeather": {
+    "DeerHide": "6",
+    "BoneFragments": "0"
+  },
+  "Recipe_TurnipStew": {
+    "RawMeat": "1",
+    "Turnip": "3"
+  },
+  "Recipe_SpearChitin": {
+    "FineWood": "8",
+    "Chitin": "30",
+    "LeatherScraps": "3"
+  },
+  "Recipe_AxeBronze": {
+    "Wood": "4",
+    "Bronze": "8",
+    "LeatherScraps": "2"
+  },
+  "Recipe_SaddleAsksvin": {
+    "FlametalNew": "6",
+    "LinenThread": "20",
+    "MorgenSinew": "4"
+  },
+  "Recipe_ScorchingMedley": {
+    "MushroomJotunPuffs": "3",
+    "Onion": "3",
+    "Fiddleheadfern": "3"
+  },
+  "Recipe_SledgeIron": {
+    "ElderBark": "10",
+    "Iron": "30",
+    "YmirRemains": "4",
+    "TrophyDraugrElite": "1"
+  },
+  "Recipe_BarleyWineBase": {
+    "Barley": "10",
+    "Cloudberry": "10"
+  },
+  "Recipe_PotionStaminaMinor": {
+    "MushroomYellow": "1",
+    "Raspberry": "1",
+    "Honey": "1"
+  },
+  "Recipe_SpearFlint": {
+    "Wood": "5",
+    "Flint": "10",
+    "LeatherScraps": "2"
+  },
+  "Recipe_ShieldWood": {
+    "Wood": "10",
+    "Resin": "4",
+    "LeatherScraps": "4"
+  },
+  "Recipe_BombSmoke": {
+    "MushroomSmokePuff": "1",
+    "AskBladder": "1"
+  },
+  "Recipe_SwordNiedhogg_Lightning": {
+    "SwordNiedhogg": "1",
+    "FlametalNew": "6",
+    "GemstoneBlue": "1"
+  },
+  "Recipe_HelmetHat4": {
+    "DeerHide": "6"
+  },
+  "Recipe_MaceNeedle": {
+    "FineWood": "5",
+    "Iron": "20",
+    "Needle": "5",
+    "LinenThread": "10"
+  },
+  "Recipe_Adze": {
+    "Wood": "3",
+    "Stone": "2"
+  },
+  "Recipe_ArrowPoison": {
+    "Wood": "8",
+    "Obsidian": "4",
+    "Feathers": "2",
+    "Ooze": "2"
+  },
+  "Recipe_ShieldBoneTower": {
+    "Wood": "10",
+    "BoneFragments": "10",
+    "TrophySkeleton": "3"
+  },
+  "Recipe_MaceEldner_Nature": {
+    "MaceEldner": "1",
+    "FlametalNew": "8",
+    "GemstoneGreen": "1"
+  },
+  "Recipe_PotionHealthMinor": {
+    "Mushroom": "1",
+    "Blueberries": "1",
+    "Dandelion": "1"
+  },
+  "Recipe_LoxPie": {
+    "Cloudberry": "2",
+    "LoxMeat": "2",
+    "BarleyFlour": "4"
+  },
+  "Recipe_ArmorFlametalChest": {
+    "FlametalNew": "20",
+    "AskHide": "3",
+    "CharredBone": "5",
+    "MorgenHeart": "1"
+  },
+  "Recipe_ArmorMageChest": {
+    "LinenThread": "20",
+    "Eitr": "20",
+    "Feathers": "10",
+    "ScaleHide": "5"
+  },
+  "Recipe_HelmetHat5": {
+    "DeerHide": "6"
+  },
+  "Recipe_MeadBaseStaminaMinor": {
+    "Honey": "10",
+    "Raspberry": "10",
+    "MushroomYellow": "10"
+  },
+  "Recipe_ArmorRagsChest": {
+    "LeatherScraps": "5"
+  },
+  "Recipe_SpearBronze": {
+    "Wood": "5",
+    "Bronze": "6",
+    "DeerHide": "2"
+  },
+  "Recipe_KnifeFlint": {
+    "Wood": "2",
+    "Flint": "4",
+    "LeatherScraps": "2"
+  },
+  "Recipe_FeastSwamps": {
+    "Sausages": "8",
+    "Bloodbag": "4",
+    "TurnipStew": "2",
+    "SpiceForests": "1"
+  },
+  "Recipe_ArmorHarvester2": {
+    "DeerHide": "6"
+  },
+  "Recipe_ArmorFlametalLegs": {
+    "FlametalNew": "20",
+    "AskHide": "3",
+    "CharredBone": "5"
+  },
+  "Recipe_ArmorDress5": {
+    "DeerHide": "6"
+  },
+  "Recipe_ArmorRootLegs": {
+    "Root": "10",
+    "ElderBark": "10",
+    "DeerHide": "2"
+  },
+  "Recipe_MeadBaseStrength": {
+    "Fish5": "2",
+    "Honey": "10",
+    "PowderedDragonEgg": "1"
+  },
+  "Recipe_CrossbowRipper": {
+    "Blackwood": "10",
+    "FlametalNew": "8",
+    "MorgenSinew": "2",
+    "BonemawSerpentTooth": "4"
+  },
+  "Recipe_ArmorIronLegs": {
+    "Iron": "20",
+    "DeerHide": "2"
+  },
+  "Recipe_SparklingShroomshake": {
+    "Sap": "4",
+    "Vineberry": "2",
+    "MushroomSmokePuff": "2",
+    "MushroomMagecap": "2"
+  },
+  "Recipe_CapeTrollHide": {
+    "TrollHide": "10",
+    "BoneFragments": "10"
+  },
+  "Recipe_SwordSilver": {
+    "Wood": "2",
+    "Silver": "40",
+    "LeatherScraps": "3",
+    "Iron": "5"
+  },
+  "Recipe_StaffSkeleton": {
+    "BoneFragments": "10",
+    "Eitr": "16",
+    "TrophySkeleton": "4"
+  },
+  "Recipe_MaceIron": {
+    "Wood": "4",
+    "Iron": "20",
+    "LeatherScraps": "3"
+  },
+  "Recipe_FireworksPurple": {
+    "FireworksRocket_White": "1",
+    "Turnip": "1"
+  },
+  "Recipe_HelmetPadded": {
+    "Iron": "10",
+    "LinenThread": "15"
+  },
+  "Recipe_ShieldSerpentscale": {
+    "FineWood": "10",
+    "Iron": "4",
+    "SerpentScale": "8"
+  },
+  "Recipe_WolfSkewer": {
+    "WolfMeat": "1",
+    "Mushroom": "2",
+    "Onion": "1"
+  },
+  "Recipe_StoneChisel": {
+    "FineWood": "2",
+    "Iron": "1"
+  },
+  "Recipe_FeastPlains": {
+    "Bread": "3",
+    "LoxPie": "2",
+    "Cloudberry": "5",
+    "SpicePlains": "1"
+  },
+  "Recipe_BowFineWood": {
+    "FineWood": "10",
+    "RoundLog": "10",
+    "DeerHide": "2"
+  },
+  "Recipe_AxeBerzerkr_Lightning": {
+    "AxeBerzerkr": "1",
+    "FlametalNew": "5",
+    "GemstoneBlue": "1"
+  },
+  "Recipe_Demister": {
+    "Silver": "1",
+    "Wisp": "1"
+  },
+  "Recipe_ShieldBlackmetalTower": {
+    "FineWood": "15",
+    "BlackMetal": "10",
+    "Chain": "7"
+  },
+  "Recipe_PickaxeIron": {
+    "RoundLog": "3",
+    "Iron": "20"
+  },
+  "Recipe_CeramicPlate": {
+    "BlackMarble": "5"
+  },
+  "Recipe_LeatherBelt": {
+    "LeatherScraps": "4",
+    "Bronze": "1"
+  },
+  "Recipe_IronNails": {
+    "Iron": "1"
+  },
+  "Recipe_BombLava": {
+    "AskHide": "1",
+    "AskBladder": "1",
+    "ProustitePowder": "3"
+  },
+  "Recipe_BoltCarapace": {
+    "Carapace": "2",
+    "Wood": "8",
+    "Feathers": "2"
+  },
+  "Recipe_ArmorMageChest_Ashlands": {
+    "LinenThread": "20",
+    "Eitr": "20",
+    "AskHide": "10",
+    "FlametalNew": "5"
+  },
+  "Recipe_ArmorDress1": {
+    "DeerHide": "6"
+  },
+  "Recipe_MeadBasePoisonResist": {
+    "Honey": "10",
+    "Thistle": "5",
+    "NeckTail": "1",
+    "Coal": "10"
+  },
+  "Recipe_BowAshlands_Blood": {
+    "BowAshlands": "1",
+    "FlametalNew": "5",
+    "GemstoneRed": "1"
+  },
+  "Recipe_HelmetStrawhat": {
+    "DeerHide": "6"
+  },
+  "Recipe_FishingBaitCave": {
+    "FishingBait": "20",
+    "TrophyFenring": "1"
+  },
+  "Recipe_FireworksYellow": {
+    "FireworksRocket_White": "1",
+    "Dandelion": "1"
+  },
+  "Recipe_ArmorTunic6": {
+    "DeerHide": "6"
+  },
+  "Recipe_ArmorWolfLegs": {
+    "Silver": "20",
+    "WolfPelt": "5",
+    "WolfFang": "4"
+  },
+  "Recipe_Blacksoup": {
+    "Bloodbag": "1",
+    "Honey": "1",
+    "Turnip": "1"
+  },
+  "Recipe_Battleaxe": {
+    "ElderBark": "30",
+    "Iron": "35",
+    "LeatherScraps": "4"
+  },
+  "Recipe_TankardAnniversary": {
+    "Bronze": "2",
+    "TrollHide": "2",
+    "Iron": "2"
+  },
+  "Recipe_ArmorTunic2": {
+    "DeerHide": "6"
+  },
+  "Recipe_MeadBaseHealthMinor": {
+    "Honey": "10",
+    "Blueberries": "5",
+    "Raspberry": "10",
+    "Dandelion": "1"
+  },
+  "Recipe_ArmorLeatherLegs": {
+    "DeerHide": "6",
+    "BoneFragments": "0"
+  },
+  "Recipe_MeatPlatter": {
+    "BugMeat": "1",
+    "LoxMeat": "1",
+    "HareMeat": "1"
+  },
+  "Recipe_BoltBlackmetal": {
+    "BlackMetal": "2",
+    "Wood": "8",
+    "Feathers": "2"
+  },
+  "Recipe_ShieldBlackmetal": {
+    "FineWood": "10",
+    "BlackMetal": "8",
+    "Chain": "5"
+  },
+  "Recipe_ArmorDress2": {
+    "DeerHide": "6"
+  },
+  "Recipe_MechanicalSpring": {
+    "Eitr": "1",
+    "Iron": "3"
+  },
+  "Recipe_Eyescream": {
+    "GreydwarfEye": "3",
+    "FreezeGland": "1"
+  },
+  "Recipe_ShieldBronzeBuckler": {
+    "Bronze": "10",
+    "Wood": "4"
+  },
+  "Recipe_FireworksGreen": {
+    "FireworksRocket_White": "1",
+    "Guck": "1"
+  },
+  "Recipe_HelmetHat3": {
+    "DeerHide": "6"
+  },
+  "Recipe_ArrowFire": {
+    "Wood": "8",
+    "Resin": "8",
+    "Feathers": "2"
+  },
+  "Recipe_MashedMeat": {
+    "AsksvinMeat": "1",
+    "VoltureMeat": "1",
+    "Fiddleheadfern": "1"
+  },
+  "Recipe_ArmorLeatherChest": {
+    "DeerHide": "6",
+    "BoneFragments": "0"
+  },
+  "Recipe_ArmorMediumChest_Ashlands": {
+    "LinenThread": "15",
+    "LoxPelt": "4",
+    "AskHide": "10"
+  },
+  "Recipe_ArmorTunic9": {
+    "DeerHide": "6"
+  },
+  "Recipe_MeadBaseBugRepellent": {
+    "Cloudberry": "10",
+    "Fish7": "3",
+    "FragrantBundle": "1"
+  },
+  "Recipe_ShocklateSmoothie": {
+    "Ooze": "1",
+    "Raspberry": "2",
+    "Blueberries": "2"
+  },
+  "Recipe_TankardOdin": {
+    "FineWood": "4",
+    "TrophyDeer": "1",
+    "Resin": "2"
+  },
+  "Recipe_HelmetCarapace": {
+    "Carapace": "16",
+    "ScaleHide": "3",
+    "Mandible": "2",
+    "Eitr": "4"
+  },
+  "Recipe_ArrowWood": {
+    "Wood": "8"
+  },
+  "Recipe_HelmetBronze": {
+    "Bronze": "5",
+    "DeerHide": "2"
+  },
+  "Recipe_FeastMountains": {
+    "WolfMeatSkewer": "2",
+    "OnionSoup": "3",
+    "Carrot": "4",
+    "SpiceMountains": "1"
+  },
+  "Recipe_HelmetHat9": {
+    "DeerHide": "6"
+  },
+  "Recipe_HelmetHat8": {
+    "DeerHide": "6"
+  },
+  "Recipe_SledgeStagbreaker": {
+    "RoundLog": "20",
+    "TrophyDeer": "5",
+    "LeatherScraps": "2",
+    "BoneFragments": "0"
+  },
+  "Recipe_SadleLox": {
+    "LeatherScraps": "10",
+    "LinenThread": "20",
+    "BlackMetal": "15"
+  },
+  "Recipe_BowHuntsman": {
+    "FineWood": "10",
+    "Iron": "20",
+    "Feathers": "10",
+    "DeerHide": "2"
+  },
+  "Recipe_FireworksCyan": {
+    "FireworksRocket_White": "1",
+    "GreydwarfEye": "1"
+  },
+  "Recipe_WolfJerky": {
+    "WolfMeat": "1",
+    "Honey": "1"
+  },
+  "Recipe_ArrowFrost": {
+    "Wood": "8",
+    "Obsidian": "4",
+    "Feathers": "2",
+    "FreezeGland": "1"
+  },
+  "Recipe_ArrowSilver": {
+    "Wood": "8",
+    "Silver": "1",
+    "Feathers": "2"
+  },
+  "Recipe_MinceMeatSauce": {
+    "RawMeat": "1",
+    "NeckTail": "1",
+    "Carrot": "1"
+  },
+  "Recipe_ArmorFenrirChest": {
+    "WolfHairBundle": "20",
+    "WolfPelt": "5",
+    "LeatherScraps": "10"
+  },
+  "Recipe_SilverRing": {
+    "Silver": "1"
+  },
+  "Recipe_ShieldFlametal": {
+    "Blackwood": "10",
+    "FlametalNew": "8",
+    "AskHide": "2"
+  },
+  "Recipe_CapeDeerHide": {
+    "DeerHide": "4",
+    "BoneFragments": "5"
+  },
+  "Recipe_MeadBaseFrostResist": {
+    "Honey": "10",
+    "Thistle": "5",
+    "Bloodbag": "2",
+    "GreydwarfEye": "1"
+  },
+  "Recipe_Cultivator": {
+    "RoundLog": "5",
+    "Bronze": "5"
+  },
+  "Recipe_BombBile": {
+    "Sap": "1",
+    "Bilebag": "1",
+    "Resin": "3"
+  },
+  "Recipe_CatapultPayload_Grausten": {
+    "Grausten": "10"
+  },
+  "Recipe_SwordFire": {
+    "DyrnwynHiltFragment": "1",
+    "DyrnwynBladeFragment": "1",
+    "DyrnwynTipFragment": "1",
+    "FlametalNew": "20",
+    "GemstoneRed": "1"
+  },
+  "Recipe_CapeLinen": {
+    "LinenThread": "20",
+    "Silver": "1"
+  },
+  "Recipe_Sausages": {
+    "Entrails": "4",
+    "RawMeat": "1",
+    "Thistle": "1"
+  },
+  "Recipe_HelmetOdin": {
+    "LeatherScraps": "10",
+    "Coal": "4"
+  },
+  "Recipe_CookedEgg": {
+    "ChickenEgg": "1"
+  },
+  "Recipe_PickaxeBlackMetal": {
+    "YggdrasilWood": "3",
+    "BlackMetal": "25"
+  },
+  "Recipe_ArmorWolfChest": {
+    "Silver": "20",
+    "WolfPelt": "5",
+    "Chain": "1"
+  },
+  "Recipe_Bell": {
+    "BellFragment": "3"
+  },
+  "Recipe_ArmorCarapaceLegs": {
+    "Carapace": "20",
+    "ScaleHide": "3",
+    "Iron": "5",
+    "Eitr": "4"
+  },
+  "Recipe_GoldRubyRing": {
+    "Coins": "200",
+    "Ruby": "1"
+  },
+  "Recipe_Bread": {
+    "BarleyFlour": "10"
+  },
+  "Recipe_HelmetPointyHat": {
+    "DeerHide": "3",
+    "Coal": "5",
+    "Bronze": "1"
+  },
+  "Recipe_FeastAshlands": {
+    "CookedAsksvinMeat": "3",
+    "Vineberry": "5",
+    "ScorchingMedley": "2",
+    "SpiceAshlands": "1"
+  },
+  "Recipe_SwordSlayer_Nature": {
+    "THSwordSlayer": "1",
+    "FlametalNew": "15",
+    "GemstoneGreen": "1"
+  },
+  "Recipe_HelmetFishingHat": {
+    "Fish1": "1",
+    "Fish2": "1",
+    "Fish3": "1",
+    "Fish4_cave": "1",
+    "Fish5": "1",
+    "Fish6": "1",
+    "Fish7": "1",
+    "Fish8": "1",
+    "Fish9": "1",
+    "Fish10": "1",
+    "Fish11": "1",
+    "Fish12": "1"
+  },
+  "Recipe_StaffFireball": {
+    "YggdrasilWood": "20",
+    "SurtlingCore": "4",
+    "Eitr": "16"
+  },
+  "Recipe_FishingBaitDeepNorth": {
+    "FishingBait": "20",
+    "TrophyHatchling": "1"
+  },
+  "Recipe_BoarJerky": {
+    "RawMeat": "1",
+    "Honey": "1"
+  },
+  "Recipe_BoltBone": {
+    "BoneFragments": "8",
+    "Feathers": "2"
+  },
+  "Recipe_MaceEldner": {
+    "CharredBone": "10",
+    "FlametalNew": "15",
+    "SulfurStone": "5",
+    "AskHide": "3"
+  },
+  "Recipe_CrossbowRipper_Blood": {
+    "CrossbowRipper": "1",
+    "FlametalNew": "8",
+    "GemstoneRed": "1"
+  },
+  "Recipe_BoltIron": {
+    "Wood": "8",
+    "Iron": "1",
+    "Feathers": "2"
+  },
+  "Recipe_StaffGreenRoots": {
+    "Blackwood": "15",
+    "Fiddleheadfern": "10",
+    "CelestialFeather": "3",
+    "GemstoneGreen": "1"
+  },
+  "Recipe_FishingBaitOcean": {
+    "FishingBait": "20",
+    "TrophySerpent": "1"
+  },
+  "Recipe_HelmetMage": {
+    "LinenThread": "16",
+    "Eitr": "15",
+    "Iron": "2"
+  },
+  "Recipe_HelmetMage_Ashlands": {
+    "LinenThread": "16",
+    "Eitr": "15",
+    "AskHide": "2"
+  },
+  "Recipe_AxeBlackMetal": {
+    "FineWood": "6",
+    "BlackMetal": "20",
+    "LinenThread": "5"
+  },
+  "Recipe_CapeAsh": {
+    "AskHide": "6",
+    "MorgenSinew": "2",
+    "FlametalNew": "5"
+  },
+  "Recipe_ArmorRootChest": {
+    "Root": "10",
+    "ElderBark": "10",
+    "DeerHide": "2"
+  },
+  "Recipe_FishingBaitPlains": {
+    "FishingBait": "20",
+    "TrophyGoblin": "1"
+  },
+  "Recipe_Tankard": {
+    "FineWood": "5",
+    "Resin": "2"
+  },
+  "Recipe_ArmorFenrirLegs": {
+    "WolfHairBundle": "20",
+    "WolfPelt": "5",
+    "LeatherScraps": "10"
+  },
+  "Recipe_ArmorTrollLeatherLegs": {
+    "TrollHide": "5"
+  },
+  "Recipe_BowAshlands_Lightning": {
+    "BowAshlands": "1",
+    "FlametalNew": "5",
+    "GemstoneBlue": "1"
+  },
+  "Recipe_SerpentStew": {
+    "Mushroom": "1",
+    "SerpentMeatCooked": "1",
+    "Honey": "2"
+  },
+  "Recipe_HelmetHat1": {
+    "DeerHide": "6"
+  },
+  "Recipe_SwordBronze": {
+    "Wood": "2",
+    "Bronze": "8",
+    "LeatherScraps": "2"
+  },
+  "Recipe_MeadBaseTamer": {
+    "Onion": "5",
+    "Carrot": "10",
+    "PungentPebbles": "1"
+  },
+  "Recipe_ArmorPaddedGreaves": {
+    "Iron": "10",
+    "LinenThread": "20"
+  },
+  "Recipe_TurretBolt": {
+    "Wood": "10",
+    "BlackMetal": "1"
+  },
+  "Recipe_MaceBronze": {
+    "Wood": "4",
+    "Bronze": "8",
+    "LeatherScraps": "3"
+  },
+  "Recipe_ShieldIronSquare": {
+    "FineWood": "10",
+    "Iron": "6"
+  },
+  "Recipe_PlanHammer": {
+    "Wood": "1"
+  },
+  "Recipe_SeekerAspic": {
+    "BugMeat": "2",
+    "MushroomMagecap": "2",
+    "RoyalJelly": "2"
+  },
+  "Recipe_KnifeBlackmetal": {
+    "FineWood": "4",
+    "BlackMetal": "10",
+    "LinenThread": "5"
+  },
+  "Recipe_BronzeNails": {
+    "Bronze": "1"
+  },
+  "Recipe_Bronze": {
+    "Copper": "2",
+    "Tin": "1"
+  },
+  "Recipe_AxeIron": {
+    "Wood": "4",
+    "Iron": "20",
+    "LeatherScraps": "2"
+  },
+  "Recipe_RoastedCrustPie": {
+    "Vineberry": "2",
+    "VoltureEgg": "1",
+    "BarleyFlour": "4"
+  },
+  "Recipe_FeastMeadows": {
+    "CookedDeerMeat": "2",
+    "CookedMeat": "5",
+    "Dandelion": "4",
+    "SpiceForests": "1"
+  },
+  "Recipe_MisthareSupreme": {
+    "HareMeat": "1",
+    "MushroomJotunPuffs": "3",
+    "Carrot": "2"
+  },
+  "Recipe_SpearSplitner_Blood": {
+    "SpearSplitner": "1",
+    "FlametalNew": "6",
+    "GemstoneRed": "1"
+  },
+  "Recipe_ArmorBronzeChest": {
+    "Bronze": "5",
+    "DeerHide": "2"
+  },
+  "Recipe_ArmorPaddedCuirass": {
+    "Iron": "10",
+    "LinenThread": "20"
+  },
+  "Recipe_Hoe": {
+    "Wood": "5",
+    "Stone": "2"
+  },
+  "Recipe_SwordSlayer_Blood": {
+    "THSwordSlayer": "1",
+    "FlametalNew": "15",
+    "GemstoneRed": "1"
+  },
+  "Recipe_SwordNiedhogg": {
+    "CharredBone": "3",
+    "FlametalNew": "12",
+    "AskHide": "2"
+  },
+  "Recipe_SwordMistwalker": {
+    "FineWood": "3",
+    "Iron": "15",
+    "Eitr": "10",
+    "Wisp": "3"
+  },
+  "Recipe_Battleaxe_Crystal": {
+    "ElderBark": "40",
+    "Silver": "30",
+    "Crystal": "10"
+  },
+  "Recipe_ArrowBronze": {
+    "Wood": "8",
+    "Bronze": "1",
+    "Feathers": "2"
+  },
+  "Recipe_SharpeningStone": {
+    "Stone": "5"
+  },
+  "Recipe_ShieldWoodTower": {
+    "Wood": "10",
+    "LeatherScraps": "6"
+  },
+  "Recipe_KnifeCopper": {
+    "Wood": "2",
+    "Copper": "8",
+    "GreydwarfEye": "0"
+  },
+  "Recipe_ArrowIron": {
+    "Wood": "8",
+    "Iron": "1",
+    "Feathers": "2"
+  },
+  "Recipe_HelmetRoot": {
+    "Root": "10",
+    "ElderBark": "10",
+    "LeatherScraps": "4"
+  },
+  "Recipe_SledgeDemolisher": {
+    "YggdrasilWood": "10",
+    "Iron": "20",
+    "Eitr": "10"
+  },
+  "Recipe_Club": {
+    "Wood": "6",
+    "BoneFragments": "0"
+  },
+  "Recipe_PickaxeStone": {
+    "Wood": "3",
+    "Stone": "10"
+  },
+  "Recipe_Fish1": {
+    "Fish1": "1",
+    "Fish2": "1",
+    "Fish3": "1",
+    "Fish4_cave": "1",
+    "Fish5": "1",
+    "Fish6": "1",
+    "Fish7": "1",
+    "Fish8": "1",
+    "Fish9": "1",
+    "Fish10": "1",
+    "Fish11": "1",
+    "Fish12": "1"
+  },
+  "Recipe_BowDraugrFang": {
+    "ElderBark": "10",
+    "Silver": "20",
+    "DeerHide": "2",
+    "Guck": "10"
+  },
+  "Recipe_ArmorTunic8": {
+    "DeerHide": "6"
+  },
+  "Recipe_HelmetIron": {
+    "Iron": "20",
+    "DeerHide": "2"
+  },
+  "Recipe_MaceSilver": {
+    "ElderBark": "10",
+    "Silver": "30",
+    "YmirRemains": "5",
+    "FreezeGland": "5"
+  },
+  "Recipe_AxeStone": {
+    "Wood": "5",
+    "Stone": "4"
+  },
+  "Recipe_SizzlingBerryBroth": {
+    "Sap": "3",
+    "Fiddleheadfern": "2",
+    "Vineberry": "2"
+  },
+  "Recipe_AxeJotunBane": {
+    "YggdrasilWood": "5",
+    "Iron": "15",
+    "Bilebag": "3",
+    "Eitr": "10"
+  },
+  "Recipe_HelmetHat6": {
+    "DeerHide": "6"
+  },
+  "Recipe_Feaster": {
+    "DeerHide": "6"
+  },
+  "Recipe_ArmorDress8": {
+    "DeerHide": "6"
+  },
+  "Recipe_MeadBaseLightFoot": {
+    "ScaleHide": "2",
+    "Feathers": "5",
+    "MushroomMagecap": "5"
+  },
+  "Recipe_MarinatedGreens": {
+    "Sap": "3",
+    "MushroomMagecap": "2",
+    "Fiddleheadfern": "2",
+    "MushroomSmokePuff": "2"
+  },
+  "Recipe_ArmorTunic3": {
+    "DeerHide": "6"
+  },
+  "Recipe_KnifeChitin": {
+    "FineWood": "4",
+    "Chitin": "20",
+    "LeatherScraps": "2"
+  },
+  "Recipe_ShieldCarapaceBuckler": {
+    "Carapace": "16",
+    "ScaleHide": "3",
+    "Eitr": "10"
+  },
+  "Recipe_ArmorTunic5": {
+    "DeerHide": "6"
+  },
+  "Recipe_AxeBerzerkr": {
+    "CharredBone": "15",
+    "FlametalNew": "24",
+    "AskHide": "3"
+  },
+  "Recipe_CapeOdin": {
+    "LeatherScraps": "10",
+    "Coal": "4"
+  },
+  "Recipe_HelmetHat2": {
+    "DeerHide": "6"
+  },
+  "Recipe_DeerStew": {
+    "CookedDeerMeat": "1",
+    "Blueberries": "1",
+    "Carrot": "1"
+  },
+  "Recipe_Lantern": {
+    "Bronze": "2",
+    "SurtlingCore": "1",
+    "Crystal": "1"
+  },
+  "Recipe_SwordSlayer_Lightning": {
+    "THSwordSlayer": "1",
+    "FlametalNew": "15",
+    "GemstoneBlue": "1"
+  },
+  "Recipe_Chisel": {
+    "Wood": "3",
+    "Iron": "1"
+  },
+  "Recipe_AtgeirBronze": {
+    "Wood": "10",
+    "Bronze": "8",
+    "LeatherScraps": "2"
+  },
+  "Recipe_ArmorDress9": {
+    "DeerHide": "6"
+  },
+  "Recipe_TurretBoltFlametal": {
+    "Blackwood": "10",
+    "FlametalNew": "1"
+  },
+  "Recipe_MeadBaseHealthMedium": {
+    "Honey": "10",
+    "Bloodbag": "4",
+    "Raspberry": "10",
+    "Dandelion": "1"
+  },
+  "Recipe_ShieldSilver": {
+    "FineWood": "10",
+    "Silver": "8"
+  },
+  "Recipe_FishingBaitSwamp": {
+    "FishingBait": "20",
+    "TrophyAbomination": "1"
+  },
+  "Recipe_ArmorIronChest": {
+    "Iron": "20",
+    "DeerHide": "2"
+  },
+  "Recipe_SpearWolfFang": {
+    "ElderBark": "10",
+    "WolfFang": "4",
+    "LeatherScraps": "2",
+    "Silver": "2"
+  },
+  "Recipe_MaceEldner_Blood": {
+    "MaceEldner": "1",
+    "FlametalNew": "8",
+    "GemstoneRed": "1"
+  },
+  "Recipe_Salad": {
+    "MushroomJotunPuffs": "3",
+    "Onion": "3",
+    "Cloudberry": "3"
+  },
+  "Recipe_ShieldBanded": {
+    "FineWood": "10",
+    "Iron": "8"
+  },
+  "Recipe_BloodPudding": {
+    "Thistle": "2",
+    "Bloodbag": "2",
+    "BarleyFlour": "4"
+  },
+  "Recipe_MeadBaseStaminaMedium": {
+    "Honey": "10",
+    "Cloudberry": "10",
+    "MushroomYellow": "10"
+  },
+  "Recipe_Hammer": {
+    "Wood": "3",
+    "Stone": "2"
+  },
+  "Recipe_StaffLightning": {
+    "Blackwood": "10",
+    "FlametalNew": "4",
+    "CelestialFeather": "3",
+    "GemstoneRed": "1"
+  },
+  "Recipe_Bow": {
+    "Wood": "10",
+    "LeatherScraps": "8",
+    "DeerHide": "0"
+  },
+  "Recipe_ArmorTrollLeatherChest": {
+    "TrollHide": "5"
+  },
+  "Recipe_FeastMistlands": {
+    "MisthareSupreme": "1",
+    "CookedBugMeat": "3",
+    "YggdrasilPorridge": "1",
+    "SpiceMistlands": "1"
+  },
+  "Recipe_FireworksRed": {
+    "FireworksRocket_White": "1",
+    "Raspberry": "1"
+  },
+  "Recipe_KnifeSkollAndHati": {
+    "FineWood": "4",
+    "Iron": "10",
+    "BlackMetal": "10"
+  },
+  "Recipe_AtgeirHimminAfl": {
+    "YggdrasilWood": "10",
+    "Eitr": "15",
+    "Silver": "5",
+    "Mandible": "2"
+  },
+  "Recipe_MaceEldner_Lightning": {
+    "MaceEldner": "1",
+    "FlametalNew": "8",
+    "GemstoneBlue": "1"
+  },
+  "Recipe_HoneyGlazedChicken": {
+    "ChickenMeat": "1",
+    "Honey": "3",
+    "MushroomJotunPuffs": "2"
+  },
+  "Recipe_PickaxeAntler": {
+    "Wood": "10",
+    "HardAntler": "1"
+  },
+  "Recipe_SwordNiedhogg_Nature": {
+    "SwordNiedhogg": "1",
+    "FlametalNew": "6",
+    "GemstoneGreen": "1"
+  },
+  "Recipe_ArrowNeedle": {
+    "Needle": "4",
+    "Feathers": "2"
+  },
+  "Recipe_ShieldCore": {
+    "BlackCore": "1",
+    "SurtlingCore": "1",
+    "CeramicPlate": "5"
+  },
+  "Recipe_QueensJam": {
+    "Raspberry": "8",
+    "Blueberries": "6"
+  },
+  "Recipe_HelmetFenrir": {
+    "WolfHairBundle": "20",
+    "WolfPelt": "2",
+    "TrophyCultist": "1"
+  },
+  "Recipe_HelmetDrake": {
+    "Silver": "20",
+    "WolfPelt": "2",
+    "TrophyHatchling": "2"
+  },
+  "Recipe_FishingBaitAshlands": {
+    "FishingBait": "20",
+    "TrophyCharredMelee": "1"
+  },
+  "Recipe_ArmorDress6": {
+    "DeerHide": "6"
+  },
+  "Recipe_BombOoze": {
+    "LeatherScraps": "5",
+    "Ooze": "5",
+    "Resin": "3"
+  },
+  "Recipe_SpearElderbark": {
+    "TrollHide": "4",
+    "Iron": "10",
+    "ElderBark": "10"
+  },
+  "Recipe_PickaxeBronze": {
+    "RoundLog": "3",
+    "Bronze": "10"
+  },
+  "Recipe_HelmetMidsummerCrown": {
+    "Dandelion": "10"
+  },
+  "Recipe_ShieldFlametalTower": {
+    "Blackwood": "15",
+    "FlametalNew": "10",
+    "AskHide": "5"
+  },
+  "Recipe_FishWraps": {
+    "FishCooked": "2",
+    "BarleyFlour": "4"
+  },
+  "Recipe_Torch": {
+    "Wood": "1",
+    "Resin": "1"
+  },
+  "Recipe_FishAndBread": {
+    "Fish9": "1",
+    "BreadDough": "2"
+  },
+  "Recipe_AxeBerzerkr_Blood": {
+    "AxeBerzerkr": "1",
+    "FlametalNew": "5",
+    "GemstoneRed": "1"
+  },
+  "Recipe_SwordBlackmetal": {
+    "FineWood": "2",
+    "BlackMetal": "20",
+    "LinenThread": "5"
+  },
+  "Recipe_MagicallyStuffedShroom": {
+    "MushroomMagecap": "3",
+    "GiantBloodSack": "1",
+    "Turnip": "2"
+  },
+  "Recipe_SwordNiedhogg_Blood": {
+    "SwordNiedhogg": "1",
+    "FlametalNew": "6",
+    "GemstoneRed": "1"
+  },
+  "Recipe_ShieldIronBuckler": {
+    "Iron": "10",
+    "ElderBark": "4"
+  },
+  "Recipe_ArmorMediumLegs_Ashlands": {
+    "LinenThread": "15",
+    "LoxPelt": "4",
+    "AskHide": "10"
+  },
+  "Recipe_PlanCrystal": {
+    "GreydwarfEye": "1"
+  },
+  "Recipe_FistFenrirClaw": {
+    "WolfHairBundle": "10",
+    "WolfClaw": "6",
+    "Silver": "10"
+  },
+  "Recipe_ArmorBronzeLegs": {
+    "Bronze": "5",
+    "DeerHide": "2"
+  },
+  "Recipe_FeastBlackforest": {
+    "DeerStew": "3",
+    "Thistle": "5",
+    "QueensJam": "4",
+    "SpiceForests": "1"
+  },
+  "Recipe_StaffRedTroll": {
+    "CharredBone": "15",
+    "TrophyFrostTroll": "1",
+    "FlametalNew": "3",
+    "GemstoneRed": "1"
+  },
+  "Recipe_BombSiege": {
+    "AskHide": "2",
+    "SulfurStone": "2",
+    "ProustitePowder": "3"
+  },
+  "Recipe_StaffIceShards": {
+    "YggdrasilWood": "20",
+    "FreezeGland": "4",
+    "Eitr": "16"
+  },
+  "Recipe_ArmorHarvester1": {
+    "DeerHide": "6"
+  },
+  "Recipe_ArrowCarapace": {
+    "Carapace": "4",
+    "Feathers": "2",
+    "Wood": "8"
+  },
+  "Recipe_MeadBaseSwimmer": {
+    "Dandelion": "10",
+    "Fish1": "2",
+    "FreshSeaweed": "1"
+  },
+  "Recipe_SpearSplitner_Nature": {
+    "SpearSplitner": "1",
+    "FlametalNew": "6",
+    "GemstoneGreen": "1"
+  },
+  "Recipe_ArmorTunic1": {
+    "DeerHide": "6"
+  },
+  "Recipe_SpearSplitner_Lightning": {
+    "SpearSplitner": "1",
+    "FlametalNew": "6",
+    "GemstoneBlue": "1"
+  },
+  "Recipe_AtgeirBlackmetal": {
+    "FineWood": "10",
+    "BlackMetal": "30",
+    "LinenThread": "5"
+  },
+  "Recipe_HelmetHat7": {
+    "DeerHide": "6"
+  },
+  "Recipe_CapeLox": {
+    "LoxPelt": "6",
+    "Silver": "2"
+  },
+  "Recipe_Scythe": {
+    "ScytheHandle": "1",
+    "Silver": "6"
+  },
+  "Recipe_ArmorDress3": {
+    "DeerHide": "6"
+  },
+  "Recipe_MeadBaseHasty": {
+    "Honey": "10",
+    "Blueberries": "10",
+    "CuredSquirrelHamstring": "1"
+  },
+  "Recipe_HelmetHat10": {
+    "DeerHide": "6"
+  },
+  "Recipe_ArmorRagsLegs": {
+    "LeatherScraps": "5"
+  },
+  "Recipe_MeadBaseStaminaLingering": {
+    "Sap": "10",
+    "Cloudberry": "10",
+    "MushroomJotunPuffs": "10"
+  },
+  "Recipe_KnifeButcher": {
+    "Wood": "2",
+    "Tin": "4"
+  },
+  "Recipe_ArmorTunic10": {
+    "DeerHide": "6"
+  },
+  "Recipe_BoltCharred": {
+    "CharredBone": "2",
+    "Blackwood": "8",
+    "Feathers": "2"
+  },
+  "Recipe_BowSpineSnap": {
+    "FineWood": "10",
+    "BoneFragments": "40",
+    "Eitr": "10"
+  },
+  "Recipe_CapeWolf": {
+    "WolfPelt": "6",
+    "Silver": "4",
+    "TrophyWolf": "1"
+  },
+  "Recipe_ArmorTunic7": {
+    "DeerHide": "6"
+  },
+  "Recipe_ArmorTunic4": {
+    "DeerHide": "6"
+  },
+  "Recipe_BowAshlands": {
+    "Blackwood": "10",
+    "CharredBone": "16",
+    "FlametalNew": "5",
+    "BonemawSerpentTooth": "5"
+  },
+  "Recipe_CrossbowRipper_Nature": {
+    "CrossbowRipper": "1",
+    "FlametalNew": "8",
+    "GemstoneGreen": "1"
+  },
+  "Recipe_Onionsoup": {
+    "Onion": "3"
+  },
+  "Recipe_MushroomOmelette": {
+    "ChickenEgg": "3",
+    "MushroomJotunPuffs": "3"
+  },
+  "Recipe_TurretBoltWood": {
+    "RoundLog": "5",
+    "Feathers": "2"
+  },
+  "Recipe_Bronze5": {
+    "Copper": "10",
+    "Tin": "5"
+  },
+  "Recipe_MeadBaseBzerker": {
+    "Mushroom": "10",
+    "MushroomYellow": "10",
+    "MushroomBzerker": "1"
+  },
+  "Recipe_MeadBaseHealthLingering": {
+    "Sap": "10",
+    "Vineberry": "10",
+    "MushroomSmokePuff": "10"
+  },
+  "Recipe_AtgeirIron": {
+    "Wood": "10",
+    "Iron": "30",
+    "LeatherScraps": "2"
+  },
+  "Recipe_ShieldCarapace": {
+    "Carapace": "20",
+    "ScaleHide": "3",
+    "Eitr": "10"
+  },
+  "Recipe_KnifeSilver": {
+    "Wood": "2",
+    "Silver": "10",
+    "LeatherScraps": "3",
+    "Iron": "2"
+  },
+  "Recipe_FierySvinstew": {
+    "AsksvinMeat": "1",
+    "Vineberry": "2",
+    "MushroomSmokePuff": "1"
+  },
+  "Recipe_BowAshlands_Nature": {
+    "BowAshlands": "1",
+    "FlametalNew": "5",
+    "GemstoneGreen": "1"
+  },
+  "Recipe_MeadBaseEitrMinor": {
+    "Honey": "10",
+    "Sap": "5",
+    "MushroomJotunPuffs": "2",
+    "MushroomMagecap": "5"
+  },
+  "Recipe_MeadBaseHealthMajor": {
+    "Honey": "10",
+    "GiantBloodSack": "4",
+    "RoyalJelly": "5"
+  },
+  "Recipe_SpearSplitner": {
+    "Blackwood": "10",
+    "FlametalNew": "6",
+    "AskHide": "2",
+    "BonemawSerpentTooth": "3"
+  },
+  "Recipe_SpearCarapace": {
+    "YggdrasilWood": "10",
+    "Carapace": "4",
+    "Mandible": "2"
+  },
+  "Recipe_odin_hammer": {
+    "Wood": "5",
+    "Stone": "5"
+  },
+  "Recipe_MeadBaseTasty": {
+    "Honey": "10",
+    "Raspberry": "10",
+    "Blueberries": "5"
+  },
+  "Recipe_DvergrKey": {
+    "DvergrKeyFragment": "9"
+  },
+  "Recipe_ArrowCharred": {
+    "CharredBone": "4",
+    "Feathers": "2",
+    "Blackwood": "8"
+  },
+  "Recipe_ArmorDress7": {
+    "DeerHide": "6"
+  },
+  "Recipe_AxeFlint": {
+    "Wood": "4",
+    "Flint": "6",
+    "LeatherScraps": "0"
+  },
+  "Recipe_BlueprintRune": {
+    "Stone": "1"
+  },
+  "Recipe_SpiceInducedMarmalade": {
+    "Vineberry": "3",
+    "Honey": "1",
+    "Fiddleheadfern": "1"
+  },
+  "Recipe_HelmetMedium_Ashlands": {
+    "LinenThread": "15",
+    "LoxPelt": "4",
+    "AskHide": "10"
+  },
+  "Recipe_FeastOceans": {
+    "FishCooked": "5",
+    "Thistle": "4",
+    "SerpentMeatCooked": "2",
+    "SpiceOceans": "1"
+  },
+  "Recipe_MeadBaseEitrLingering": {
+    "Sap": "10",
+    "Vineberry": "10",
+    "MushroomMagecap": "10"
+  },
+  "Recipe_CapeAsksvin": {
+    "AskHide": "6",
+    "MorgenSinew": "2"
+  },
+  "Recipe_ArrowFlint": {
+    "Wood": "8",
+    "Flint": "2",
+    "Feathers": "2"
+  },
+  "Recipe_SwordKrom": {
+    "Iron": "30",
+    "Bronze": "20",
+    "ScaleHide": "5"
+  },
+  "Recipe_ArmorCarapaceChest": {
+    "Carapace": "20",
+    "ScaleHide": "3",
+    "Iron": "5",
+    "Eitr": "4"
+  },
+  "Recipe_HelmetFlametal": {
+    "FlametalNew": "16",
+    "AskHide": "3",
+    "CharredBone": "2",
+    "Eitr": "4"
+  },
+  "Recipe_FishingBaitForest": {
+    "FishingBait": "20",
+    "TrophyFrostTroll": "1"
+  },
+  "Recipe_SwordIron": {
+    "Wood": "2",
+    "Iron": "20",
+    "LeatherScraps": "3"
+  },
+  "Recipe_ShieldIronTower": {
+    "FineWood": "15",
+    "Iron": "10"
+  },
+  "Recipe_SwordSlayer": {
+    "FlametalNew": "30",
+    "AskHide": "5",
+    "MorgenSinew": "3"
+  }
+}
