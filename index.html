@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Planalyzer</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/foundation-sites@6.9.0/dist/css/foundation.min.css"
+      crossorigin="anonymous"
+    />
+    <style>
+      /* Tab buttons styling (from your reference) */
+      .tab-buttons {
+        display: flex;
+        gap: 0.5rem;
+        margin-bottom: 0.5rem;
+      }
+      .tab-buttons button {
+        padding: 0.5rem 1rem;
+        border: 1px solid #ccc;
+        background: #f5f5f5;
+        cursor: pointer;
+      }
+      .tab-buttons button.active {
+        background: #1779ba;
+        color: white;
+        border-color: #1779ba;
+      }
+
+      /* Tab contents: fixed height and scroll */
+      .tab-content {
+        display: none;
+        border: 1px solid #ccc;
+        padding: 0.75rem;
+        background: #fafafa;
+        height: 100px; /* fixed height requested */
+        overflow-y: auto; /* scroll when content exceeds */
+        font-family: monospace;
+        font-size: 0.85rem;
+        white-space: pre-wrap;
+      }
+      .tab-content.active {
+        display: block;
+      }
+
+      /* Results layout */
+      #results {
+        margin-top: 1rem;
+      }
+
+      /* Modal overlay for data box */
+      .modal-overlay {
+        display: none;
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.6);
+        z-index: 9999;
+        align-items: center;
+        justify-content: center;
+      }
+      .modal-box {
+        background: #fff;
+        width: 95%;
+        max-width: 1000px;
+        border-radius: 6px;
+        padding: 1rem;
+        box-shadow: 0 6px 24px rgba(0, 0, 0, 0.4);
+        max-height: 80vh;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+      }
+      .modal-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0.5rem;
+      }
+      .modal-body {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+      /* ensure buttons in modal don't wrap awkwardly */
+      .tab-buttons {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+      }
+      /* small visual touches */
+      .muted {
+        color: #666;
+        font-size: 0.95rem;
+      }
+
+      /* Progress */
+      .progress-row {
+        margin-top: 0.75rem;
+        display: none;
+        align-items: center;
+        gap: 0.75rem;
+      }
+      .progress {
+        width: 70%;
+        min-width: 200px;
+      }
+      .progress-meter {
+        transition: width 150ms linear;
+      }
+    </style>
+  </head>
+  <body class="grid-container">
+    <h2>Valheim Planalyzer</h2>
+
+    <!-- Controls -->
+    <label for="blueprintUpload" class="button">Upload Blueprint</label>
+    <input
+      type="file"
+      id="blueprintUpload"
+      accept=".blueprint,.txt"
+      style="display: none"
+    />
+    <button class="button success" id="processBlueprint" disabled>
+      Process Blueprint
+    </button>
+    <button class="button secondary" id="showLogsBtn">Show Data Logs</button>
+
+    <!-- Progress row -->
+    <div id="progressRow" class="progress-row">
+      <div
+        class="progress success"
+        role="progressbar"
+        aria-valuemin="0"
+        aria-valuemax="100"
+      >
+        <span
+          id="progressMeter"
+          class="progress-meter"
+          style="width: 0%"
+        ></span>
+      </div>
+      <div id="progressText" class="muted">0%</div>
+    </div>
+
+    <!-- Results area -->
+    <div id="results"></div>
+
+    <!-- Download container -->
+    <div id="downloadContainer" style="margin-top: 1rem; display: none">
+      <button class="button warning" id="downloadMd">
+        Download Resource Count (Markdown)
+      </button>
+    </div>
+
+    <!-- Modal overlay that contains the tabbed data/log panels -->
+    <div id="logsModal" class="modal-overlay" role="dialog" aria-modal="true">
+      <div class="modal-box">
+        <div class="modal-head">
+          <div><strong>Data / Processing Logs</strong></div>
+          <div>
+            <button id="closeModal" class="button small">Close</button>
+          </div>
+        </div>
+
+        <div class="modal-body">
+          <div id="tabButtons" class="tab-buttons" aria-hidden="false"></div>
+
+          <!-- Tab panels (always present; blueprintContent panel will be filled after upload) -->
+          <div id="statusLog" class="tab-content"></div>
+          <div id="prefabList" class="tab-content"></div>
+          <div id="blueprintContent" class="tab-content"></div>
+          <div id="calcLog" class="tab-content"></div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // --------- Config & state ----------
+      //   const prefabUrl = "https://gist.githubusercontent.com/dsthedev/c9e94f17ad09d82348078ae9d53996ad/raw/e1086efb93452fffe0a7caf995c15feeaaed2cdd/all_pieces.json";
+      const prefabUrl =
+        "https://gist.githubusercontent.com/dsthedev/2beea417f614975d68fd2c2ded3c6baf/raw/0728213d50a9a8c19885ad3a2af879d8a47c365b/all_pieces_and_recipes.json";
+
+      let prefabData = {};
+      let blueprintFileContent = "";
+      let metadata = {};
+      let pieceCounts = {};
+      let resourceCounts = {};
+
+      const tabButtonsDiv = document.getElementById("tabButtons");
+      const statusLogEl = document.getElementById("statusLog");
+      const prefabListEl = document.getElementById("prefabList");
+      const blueprintContentEl = document.getElementById("blueprintContent");
+      const calcLogEl = document.getElementById("calcLog");
+      const resultsEl = document.getElementById("results");
+      const downloadContainer = document.getElementById("downloadContainer");
+      const progressRow = document.getElementById("progressRow");
+      const progressMeter = document.getElementById("progressMeter");
+      const progressText = document.getElementById("progressText");
+
+      // Keep track which tab buttons we've created (so we can add blueprint tab later)
+      const createdTabs = new Set();
+
+      // --------- helper: create tab button ----------
+      function addTabButton(id, label) {
+        if (createdTabs.has(id)) return;
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.dataset.tab = id;
+        btn.className = "";
+        btn.textContent = label;
+        btn.addEventListener("click", () => switchTab(id));
+        tabButtonsDiv.appendChild(btn);
+        createdTabs.add(id);
+      }
+
+      function switchTab(tabId) {
+        // set active state for tab contents
+        document
+          .querySelectorAll(".tab-content")
+          .forEach((div) => div.classList.remove("active"));
+        const target = document.getElementById(tabId);
+        if (target) target.classList.add("active");
+
+        // set active for tab buttons
+        for (const btn of tabButtonsDiv.children) {
+          btn.classList.toggle("active", btn.dataset.tab === tabId);
+        }
+      }
+
+      // create default tabs (status, prefab list, calc)
+      addTabButton("statusLog", "Status Log");
+      addTabButton("prefabList", "Prefab List");
+      addTabButton("calcLog", "Calculation Log");
+      // default select Status Log
+      switchTab("statusLog");
+
+      // --------- Logging helpers ----------
+      function logStatus(msg) {
+        statusLogEl.innerHTML += escapeHtml(msg) + "<br>";
+        statusLogEl.scrollTop = statusLogEl.scrollHeight;
+      }
+      function logCalc(msg) {
+        calcLogEl.innerHTML += escapeHtml(msg) + "<br>";
+        calcLogEl.scrollTop = calcLogEl.scrollHeight;
+      }
+
+      // small html escape for safety
+      function escapeHtml(s) {
+        return String(s)
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;")
+          .replace(/'/g, "&#39;");
+      }
+
+      // --------- Prefab loading ----------
+      fetch(prefabUrl)
+        .then((r) => {
+          if (!r.ok) throw new Error("HTTP " + r.status);
+          return r.json();
+        })
+        .then((data) => {
+          prefabData = data;
+          prefabListEl.textContent = JSON.stringify(prefabData, null, 2);
+          logStatus(
+            "✅ Prefab list loaded (" +
+              Object.keys(prefabData).length +
+              " entries)."
+          );
+        })
+        .catch((err) => {
+          logStatus(
+            "⚠️ Failed to load prefab list: " +
+              err +
+              " (you can still proceed with embedded fallback)."
+          );
+          prefabListEl.textContent = "Prefab list failed to load from remote.";
+        });
+
+      // --------- Modal open/close ----------
+      const logsModal = document.getElementById("logsModal");
+      const showLogsBtn = document.getElementById("showLogsBtn");
+      const closeModalBtn = document.getElementById("closeModal");
+
+      showLogsBtn.addEventListener("click", () => {
+        logsModal.style.display = "flex";
+        switchTab("statusLog");
+      });
+      closeModalBtn.addEventListener(
+        "click",
+        () => (logsModal.style.display = "none")
+      );
+      logsModal.addEventListener("click", (e) => {
+        if (e.target === logsModal) logsModal.style.display = "none";
+      });
+
+      // --------- Blueprint upload ----------
+      const blueprintInput = document.getElementById("blueprintUpload");
+      const processBtn = document.getElementById("processBlueprint");
+
+      blueprintInput.addEventListener("change", (e) => {
+        const file = e.target.files && e.target.files[0];
+        if (!file) return;
+
+        // Clear prior blueprint-related data immediately
+        blueprintFileContent = "";
+        metadata = {};
+        pieceCounts = {};
+        resourceCounts = {};
+        resultsEl.innerHTML = "";
+        calcLogEl.textContent = "";
+        blueprintContentEl.textContent = "";
+        downloadContainer.style.display = "none";
+        progressRow.style.display = "none";
+        progressMeter.style.width = "0%";
+        progressText.textContent = "0%";
+
+        const reader = new FileReader();
+        reader.onload = (ev) => {
+          blueprintFileContent = ev.target.result || "";
+          // populate blueprint content panel (but tab button may be created later)
+          blueprintContentEl.textContent = blueprintFileContent;
+          logStatus("📄 Blueprint file loaded: " + file.name);
+          // create blueprint tab if not already
+          addTabButton("blueprintContent", "Blueprint Contents");
+          // enable processing button
+          processBtn.disabled = false;
+          // parse minimal metadata on upload (not processing yet)
+          metadata = extractMetadata(blueprintFileContent);
+        };
+        reader.onerror = (err) => {
+          logStatus("❌ Error reading file: " + err);
+        };
+        reader.readAsText(file);
+      });
+      // helper: extract only the metadata we care about (stops at '#Pieces')
+      function extractMetadata(text) {
+        const lines = text.split(/\r?\n/);
+        const meta = {};
+        const allowedKeys = new Set(["Creator", "Description", "Category"]);
+
+        for (const line of lines) {
+          if (!line) continue;
+          if (line.trim() === "#Pieces") break;
+          if (line.startsWith("#")) {
+            const idx = line.indexOf(":");
+            if (idx > -1) {
+              const key = line.slice(1, idx).trim();
+              const val = line
+                .slice(idx + 1)
+                .trim()
+                .replace(/^"|"$/g, "");
+              if (allowedKeys.has(key)) {
+                meta[key] = val;
+              }
+            }
+          }
+        }
+        return meta;
+      }
+
+      // helper: get resource map for prefab entry (support multiple shapes)
+      function getResourceMapForPrefab(name) {
+        if (!prefabData) return null;
+        let entry = prefabData[name] || prefabData[name.toLowerCase()];
+        if (!entry) return null;
+        // check common shapes
+        if (entry.resource_cost && typeof entry.resource_cost === "object")
+          return entry.resource_cost;
+        if (entry.resources && typeof entry.resources === "object")
+          return entry.resources;
+        // if entry itself looks like a map of resource -> number
+        if (typeof entry === "object") {
+          // if all values are numbers or numeric strings
+          const vals = Object.values(entry);
+          if (
+            vals.length > 0 &&
+            vals.every((v) => typeof v === "number" || !isNaN(Number(v)))
+          )
+            return entry;
+        }
+        return null;
+      }
+
+      // --------- Processing button (BATCHED) ----------
+      processBtn.addEventListener("click", () => {
+        if (!blueprintFileContent) {
+          logStatus("No blueprint loaded.");
+          return;
+        }
+
+        // reset logs & intermediate data
+        calcLogEl.textContent = "";
+        pieceCounts = {};
+        resourceCounts = {};
+        metadata = extractMetadata(blueprintFileContent);
+
+        // split lines and find where #Pieces starts
+        const lines = blueprintFileContent.split(/\r?\n/).map((l) => l.trim());
+        const piecesIndex = lines.findIndex((l) => l === "#Pieces");
+        let pieceLines = [];
+        if (piecesIndex >= 0) {
+          pieceLines = lines
+            .slice(piecesIndex + 1)
+            .filter((l) => l && !l.startsWith("#"));
+        } else {
+          // if no explicit #Pieces marker, assume lines that aren't metadata are pieces
+          pieceLines = lines.filter((l) => l && !l.startsWith("#"));
+        }
+
+        // Show progress UI
+        progressRow.style.display = "flex";
+        progressMeter.style.width = "0%";
+        progressText.textContent = "0%";
+
+        // Batching parameters
+        const batchSize = 100; // lines per batch (counting)
+        let index = 0;
+
+        // PHASE 1: count pieces in batches
+        function processCountBatch() {
+          const end = Math.min(index + batchSize, pieceLines.length);
+          for (let i = index; i < end; i++) {
+            const prefabName = pieceLines[i].split(";")[0].trim();
+            if (!prefabName) continue;
+            pieceCounts[prefabName] = (pieceCounts[prefabName] || 0) + 1;
+          }
+          index = end;
+
+          // progress: counting phase occupies 0-50%
+          const pct = Math.round((index / pieceLines.length) * 50);
+          progressMeter.style.width = pct + "%";
+          progressText.textContent = pct + "%";
+
+          // update a lightweight log every N batches to avoid flooding DOM
+          if (index % (batchSize * 10) === 0 || index === pieceLines.length) {
+            logStatus(`Counting pieces... ${index}/${pieceLines.length}`);
+          }
+
+          if (index < pieceLines.length) {
+            // allow browser to breathe
+            setTimeout(processCountBatch, 0);
+          } else {
+            // move to resource aggregation
+            processResourceBatches();
+          }
+        }
+
+        // PHASE 2: aggregate resources from pieceCounts in batches
+        function processResourceBatches() {
+          const entries = Object.entries(pieceCounts);
+          const total = entries.length;
+          if (total === 0) {
+            finalize();
+            return;
+          }
+          const batchSizeResources = 50;
+          let ri = 0;
+
+          function step() {
+            const end = Math.min(ri + batchSizeResources, total);
+            for (let i = ri; i < end; i++) {
+              const [piece, count] = entries[i];
+              const resources = getResourceMapForPrefab(piece);
+              if (!resources) {
+                logCalc(`⚠️ Unknown prefab (no data): ${piece}`);
+                continue;
+              }
+              for (const [resName, amtRaw] of Object.entries(resources)) {
+                const amt = Number(amtRaw);
+                if (Number.isNaN(amt)) {
+                  logCalc(
+                    `⚠️ Non-numeric amount for ${resName} on ${piece}: ${amtRaw}`
+                  );
+                  continue;
+                }
+                const add = amt * count;
+                resourceCounts[resName] = (resourceCounts[resName] || 0) + add;
+                logCalc(` → ${piece}: ${amt} ${resName} × ${count} = ${add}`);
+              }
+            }
+            ri = end;
+            // progress: resource phase occupies 50-100%
+            const pct = 50 + Math.round((ri / total) * 50);
+            progressMeter.style.width = pct + "%";
+            progressText.textContent = pct + "%";
+
+            if (ri < total) {
+              setTimeout(step, 0);
+            } else {
+              finalize();
+            }
+          }
+          // start resource batching
+          setTimeout(step, 0);
+        }
+
+        function finalize() {
+          progressMeter.style.width = "100%";
+          progressText.textContent = "100%";
+          renderResults();
+          downloadContainer.style.display = "block";
+          logStatus("✅ Processing complete.");
+          // show modal so user can inspect logs if they want
+          logsModal.style.display = "flex";
+          switchTab("calcLog");
+        }
+
+        // start counting
+        processCountBatch();
+      });
+
+      // --------- Render results (side-by-side on medium+) ----------
+      function renderResults() {
+        const name = metadata.Name || "Unknown Blueprint";
+        let html = `<h4>${escapeHtml(name)}</h4>`;
+
+        // metadata lines (no 'Metadata' header, as requested)
+        html += `<div class="muted">`;
+        for (const [k, v] of Object.entries(metadata)) {
+          if (k === "Name") continue;
+          html += `<div><strong>${escapeHtml(k)}:</strong> ${escapeHtml(
+            v
+          )}</div>`;
+        }
+        html += `</div>`;
+
+        // grid: resources | pieces (side-by-side on medium+)
+        html += `<div class="grid-x grid-margin-x" style="margin-top:0.75rem;">`;
+
+        // resources
+        html += `<div class="cell small-12 medium-6">`;
+        html += `<h5>Resources Needed</h5>`;
+        if (Object.keys(resourceCounts).length === 0) {
+          html += `<div class="muted">No resources calculated.</div>`;
+        } else {
+          html += `<table class="hover"><thead><tr><th>Resource</th><th>Count</th></tr></thead><tbody>`;
+          for (const [res, cnt] of Object.entries(resourceCounts)) {
+            html += `<tr><td>${escapeHtml(res)}</td><td>${cnt}</td></tr>`;
+          }
+          html += `</tbody></table>`;
+        }
+        html += `</div>`;
+
+        // pieces
+        html += `<div class="cell small-12 medium-6">`;
+        html += `<h5>Piece Breakdown</h5>`;
+        if (Object.keys(pieceCounts).length === 0) {
+          html += `<div class="muted">No pieces found.</div>`;
+        } else {
+          html += `<table class="hover"><thead><tr><th>Piece</th><th>Count</th></tr></thead><tbody>`;
+          for (const [p, cnt] of Object.entries(pieceCounts)) {
+            html += `<tr><td>${escapeHtml(p)}</td><td>${cnt}</td></tr>`;
+          }
+          html += `</tbody></table>`;
+        }
+        html += `</div>`;
+
+        html += `</div>`; // end grid
+
+        resultsEl.innerHTML = html;
+      }
+
+      // --------- Download Markdown ----------
+      document.getElementById("downloadMd").addEventListener("click", () => {
+        const name = metadata.Name || "Unknown";
+        let md = `# ${name}\n\n`;
+        // metadata lines (except Name)
+        for (const [k, v] of Object.entries(metadata)) {
+          if (k === "Name") continue;
+          md += `**${k}:** ${v}\n\n`;
+        }
+
+        // Resources table
+        md += `## Resources Needed\n\n| Resource | Count |\n|---|---|\n`;
+        for (const [r, cnt] of Object.entries(resourceCounts)) {
+          md += `| ${r} | ${cnt} |\n`;
+        }
+
+        // Piece breakdown
+        md += `\n## Piece Breakdown\n\n| Piece | Count |\n|---|---|\n`;
+        for (const [p, cnt] of Object.entries(pieceCounts)) {
+          md += `| ${p} | ${cnt} |\n`;
+        }
+
+        const blob = new Blob([md], { type: "text/markdown" });
+        const a = document.createElement("a");
+        a.href = URL.createObjectURL(blob);
+        a.download = `${name.replace(/[^\w\-]+/g, "_") || "blueprint"}.md`;
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        URL.revokeObjectURL(a.href);
+      });
+
+      // small UX: close modal when user presses Escape
+      window.addEventListener("keydown", (e) => {
+        if (e.key === "Escape" && logsModal.style.display === "flex")
+          logsModal.style.display = "none";
+      });
+    </script>
+  </body>
+</html>
